@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Selección de la arquitectura de <em>software</em>',
+    descripcionCurso:
+      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores web, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como desarrollador web <em>full stack</em>.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,18 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-5'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
       },
     ],
   },
@@ -32,30 +45,43 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Networking</em>',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Sistemas operativos de red e infraestructura',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Modelos de arquitectura',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Lenguajes de programación y <em>stack</em> tecnológico',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Gestor de base de datos y servidores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Protocolos de comunicación',
         desarrolloContenidos: true,
       },
     ],
@@ -101,32 +127,75 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Gestor de base de datos y servidores',
+      referencia:
+        'Castro Romero, A., González Sanabria, J. S. & Callejas Cuervo, M. (2012). Utilidad y funcionamiento de las bases de datos NoSQL. Revista Facultad de Ingeniería, 21(33). p. 21-32',
+      tipo: 'PDF',
+      link: 'https://www.redalyc.org/articulo.oa?id=413940772003',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Gestor de base de datos y servidores',
+      referencia:
+        'Moreno, L., Olsowy, V., Thomas, P., Delia, L., Tesone, F., Fernández, J. & Pesado, P. (2019). Un estudio comparativo de bases de datos relaciónales y bases de datos NoSQL.',
+      tipo: 'PDF',
+      link: 'http://sedici.unlp.edu.ar/handle/10915/91403',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ciclo de vida del desarrollo de <em>software</em>',
+      significado:
+        'estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de software, que abarca la vida completa del sistema, desde la definición de los requisitos, hasta la finalización de su uso. (https://ungoti.com/es/soluciones/desarrollo-de-software/sdlc/#:~:text=El%20ciclo%20de%20vida%20del,definici%C3%B3n%20de%20los%20requisitos%20hasta)',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Lenguaje de programación',
+      significado:
+        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos.',
+    },
+    {
+      termino: 'Medios de comunicación',
+      significado:
+        'son los canales por donde viaja la información como cables UTP, de fibra óptica o wifi.',
+    },
+    {
+      termino: '<em>Networking</em>',
+      significado:
+        'redes de datos para comunicación e intercambio de información entre dispositivos o terminales.',
+    },
+    {
+      termino: 'Patrón de diseño',
+      significado:
+        'soluciones habituales a problemas comunes en el diseño de software. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de un código. (https://refactoring.guru/es/design-patterns)',
+    },
+    {
+      termino: 'Servicios',
+      significado:
+        'programas y aplicaciones que están a lo largo de la red de comunicaciones.',
+    },
+    {
+      termino: 'Topología de redes',
+      significado: 'forma como se interconectan los dispositivos de una red.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Developer Mozilla. (s.f.). Códigos de estado de respuesta HTTP.',
+      link: 'https://developer.mozilla.org/es/docs/Web/HTTP/Status',
+    },
+    {
+      referencia: 'Garlan, D. (2001). Sofware Architecture.',
+      link:
+        'http://www.cs.cmu.edu/afs/cs.cmu.edu/project/able/ftp/encycSE2001/encyclopedia-dist.pdf',
+    },
+    {
+      referencia: 'GNU. 2022. Recuperado de',
+      link: 'https://www.gnu.org/home.es.html',
+    },
+    {
+      referencia:
+        'Hernández, G. (s.f.). Protocolo de control de transferencia (TCP). Universidad Autónoma del Estado de Hidalgo.',
+      link: 'https://www.uaeh.edu.mx/scige/boletin/huejutla/n3/r1.html#refe1 ',
     },
   ],
   creditos: {
@@ -165,7 +234,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Diego Fernando Velasco Güiza',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
