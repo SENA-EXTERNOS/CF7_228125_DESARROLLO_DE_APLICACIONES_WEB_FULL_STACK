@@ -44,7 +44,7 @@
           PasosA.color-primario(tipo="n")
             .row.justify-content-center.align-items-center
               .col-lg-8.order-lg-1.order-2
-                p.mb-0 Abre un programa IDE (Entorno integrado de desarrollo) y escribe su código en un lenguaje de programación de alto nivel, el cual es legible y entendible por usted.
+                p.mb-0 Abre un programa IDE (Entorno integrado de desarrollo) y escribe su código en un lenguaje de programación de #[strong alto nivel], el cual es legible y entendible por usted.
               .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
                 img(src="@/assets/curso/tema4/img05.png")
             .row.justify-content-center.align-items-center
@@ -197,7 +197,7 @@
           div(titulo=".NET")
             p Es un ecosistema o framework, propiedad de Microsoft para la construcción de aplicaciones; usa  lenguajes de programación como Visual basic o C#, entre otros.
           div(titulo="Ruby On Rails")
-            p Es un framework para construir aplicaciones full stack con el lenguaje de programación Ruby.
+            p Es un framework para construir aplicaciones #[i full stack] con el lenguaje de programación Ruby.
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img13.png")
 

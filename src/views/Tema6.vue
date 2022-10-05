@@ -35,26 +35,26 @@
                   td(style="background-color: #F6F6F6;").text-center Get
                   td(style="background-color: #F6F6F6;" colspan="3").text-center Petición de lectura.
                 tr
-                  td.text-center Head
-                  td(colspan="3").text-center Petición lectura de encabezado.
+                  td(style="background-color: #FFF;").text-center Head
+                  td(style="background-color: #FFF;" colspan="3").text-center Petición lectura de encabezado.
                 tr
                   td(style="background-color: #F6F6F6;").text-center Put
                   td(style="background-color: #F6F6F6;" colspan="3").text-center Petición almacenamiento para edición.
                 tr
-                  td.text-center Patch
-                  td(colspan="3").text-center Igual a put, pero para parte del recurso a editar.
+                  td(style="background-color: #FFF;").text-center Patch
+                  td(style="background-color: #FFF;" colspan="3").text-center Igual a put, pero para parte del recurso a editar.
                 tr
                   td(style="background-color: #F6F6F6;").text-center Post
                   td(style="background-color: #F6F6F6;" colspan="3").text-center Petición de guardado de recursos.
                 tr
-                  td.text-center Delete
-                  td(colspan="3").text-center Petición para eliminar recursos.
+                  td(style="background-color: #FFF;").text-center Delete
+                  td(style="background-color: #FFF;" colspan="3").text-center Petición para eliminar recursos.
                 tr
                   td(style="background-color: #F6F6F6;").text-center Trace
                   td(style="background-color: #F6F6F6;" colspan="3").text-center Repite solicitud entrante.
                 tr
-                  td.text-center Connect
-                  td(colspan="3").text-center Reservado para uso futuro.
+                  td(style="background-color: #FFF;").text-center Connect
+                  td(style="background-color: #FFF;" colspan="3").text-center Reservado para uso futuro.
                 tr
                   td(style="background-color: #F6F6F6;").text-center Options
                   td(style="background-color: #F6F6F6;" colspan="3").text-center Consulta ciertas opciones.

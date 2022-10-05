@@ -184,12 +184,13 @@
       #collapse05.collapse(:class="{show: hash ? hash == 5 : false}" data-bs-parent='#MapaGroup01')
         .h5 <span style="background-color:#FECB2F; padding: 2px">e.</span>	El Modelo Vista Controlador (MVC)
 
-        .bloque-texto-g.img-inv.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img14.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p Según el concepto de patrón arquitectónico, el MVC se puede considerar así, un patrón de arquitectura, que, de hecho, es bastante común en el diseño de #[i software]. Cabe resaltar que otros autores lo pueden considerar como una estructura, y otros, de manera errada, mencionan que es un patrón de diseño.
+
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg-6.col-10.BG23.py-5.ps-5.pe-0.mx-0.order-lg-1.order-2
+            .BG13.p-4
+              p.mb-0 Según el concepto de patrón arquitectónico, el MVC se puede considerar así, un patrón de arquitectura, que, de hecho, es bastante común en el diseño de #[i software]. Cabe resaltar que otros autores lo pueden considerar como una estructura, y otros, de manera errada, mencionan que es un patrón de diseño.
+          .col-lg-6.col-10.BG24.mb-lg-0.mb-4.py-5.px-0.order-lg-2.order-1
+            img(src='@/assets/curso/tema3/img14.png')
         
         .row.justify-content-center.mb-4
           .col-lg-5.mb-lg-0.mb-4

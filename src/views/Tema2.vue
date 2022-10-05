@@ -98,7 +98,7 @@
       .col-lg-6.order-md-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="BGR08")
           div(titulo="Memoria RAM")
-            p Es un dispositivo de hardware, normalmente en forma de tarjetas modulares que se insertan en la placa base o Motherboard. Se encarga del almacenamiento e intercambio de información de manera temporal. Mientras trabaja con su equipo de cómputo estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en bytes y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información hasta 5 200 MHz, tanto para computadores personales como para servidores.
+            p Es un dispositivo de hardware, normalmente en forma de tarjetas modulares que se insertan en la placa base o #[i Motherboard]. Se encarga del almacenamiento e intercambio de información de manera temporal. Mientras trabaja con su equipo de cómputo estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en bytes y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información hasta 5 200 MHz, tanto para computadores personales como para servidores.
           div(titulo="CPU")
             p Es la unidad de almacenamiento central o procesador, llamado muchas veces como el “cerebro” de la computadora porque es el que lleva a cabo las principales funciones de gestión y cálculos que se realizan en esta.        
           div(titulo="Disco duro o rígido")
@@ -108,7 +108,7 @@
       .col-lg-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img08.jpg")
 
-    .bloque-texto-g.color-secundario.tarjeta-blue.p-3.p-sm-4.p-md-5
+    .bloque-texto-g.color-acento-contenido.tarjeta-blue.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img09.jpg')})`}"
       )(data-aos="fade-right")

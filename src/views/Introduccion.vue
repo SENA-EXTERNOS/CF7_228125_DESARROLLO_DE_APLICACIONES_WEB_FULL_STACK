@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p Apreciado aprendiz, bienvenido a este componente formativo, donde se darán algunas bases para su futuro desempeño como desarrollador web full stack.
+    p Apreciado aprendiz, bienvenido a este componente formativo, donde se darán algunas bases para su futuro desempeño como desarrollador web #[i full stack].
     p.mb-5 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     figure(data-aos="zoom-out")

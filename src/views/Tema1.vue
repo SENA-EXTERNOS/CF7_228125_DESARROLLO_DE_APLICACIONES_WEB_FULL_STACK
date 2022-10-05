@@ -106,37 +106,38 @@
         img(src="@/assets/curso/tema1/img06.png")
       .col-lg-7(data-aos="fade-left")
         p El internet y la web son dos términos que se suelen confundir en el diario vivir, pero son distintos. La internet, es la llamada “red de redes”, no es una red única, y la web se ejecuta sobre internet. Es un “sistema distribuido”. No cabe duda de que ambos son de los avances tecnológicos más importantes en los últimos años, y de la informática en general.
-    
-    .bloque-texto-g.img-inv.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4
-      .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
-      )(data-aos="fade-right")
-      .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p Hoy en día basta con accesar a un navegador web (Chrome, Mozilla, Safari, etc.), ingresar la dirección de una página web y allí poder realizar un sinfín de operaciones: compras, apuestas, gestionar un negocio, ver películas.<br><br>
-        p Uno de sus objetivos como como desarrollador web #[i full stack] es que pueda construir aplicaciones mediante las que se realicen tareas como estas; y aún más.
-    
-    .row.justify-content-center.mb-4(data-aos="flip-up")
-      .col-lg-10
-        .cajon.color-primario.p-4
-          p.mb-0 El #[i networking] tiene unas características entre las que se encuentra la tipología y topología de redes. A continuación, conoceremos cada una de ellas.
-    
-    .h5 En la tipología de redes se encuentran:
 
-    .row.justify-content-center.mb-4(data-aos="zoom-in")
-      .col-lg-10
-        ImagenInfografica.color-primario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/curso/tema1/img08.svg')
-          .tarjeta.color-acento-contenido.p-3(x="51%" y="38.5%" numero="+")
-            .h5.mb-2 LAN (Red de área local):
-            p Son redes privadas de escasos kilómetros de longitud que se encuentran en una misma vivienda, edificio o campus.
-          .tarjeta.color-acento-contenido.p-3(x="20%" y="88.3%" numero="+")
-            .h5.mb-2 WAN (Red de área amplia):
-            p Es aquella que abarca un área geográfica grande: un país o un continente.
-          .tarjeta.color-acento-contenido.p-3(x="80%" y="88.3%" numero="+")
-            .h5.mb-2 MAN (Red de área metropolitana):
-            p Es una red que abarca una ciudad; ejemplo: la televisión por cable.
+    .BGIMG02.p-md-5.p-4.mb-5 
+      .bloque-texto-g.img-inv.color-acento-botones.p-3.p-sm-4.p-md-5.mb-4
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
+        )(data-aos="fade-right")
+        .bloque-texto-g__texto.p-4(data-aos="fade-left")
+          p Hoy en día basta con accesar a un navegador web (Chrome, Mozilla, Safari, etc.), ingresar la dirección de una página web y allí poder realizar un sinfín de operaciones: compras, apuestas, gestionar un negocio, ver películas.<br><br>
+          p Uno de sus objetivos como como desarrollador web #[i full stack] es que pueda construir aplicaciones mediante las que se realicen tareas como estas; y aún más.
+      
+      .row.justify-content-center.mb-5.mt-5(data-aos="flip-up")
+        .col-lg-10
+          .cajon.color-primario.p-4
+            p.mb-0 El #[i networking] tiene unas características entre las que se encuentra la tipología y topología de redes. A continuación, conoceremos cada una de ellas.
+      
+      .h5 En la tipología de redes se encuentran:
+
+      .row.justify-content-center(data-aos="zoom-in")
+        .col-lg-10
+          ImagenInfografica.color-primario
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/tema1/img08.svg')
+            .tarjeta.color-acento-contenido.p-3(x="51%" y="38.5%" numero="+")
+              .h5.mb-2 LAN (Red de área local):
+              p.mb-0 Son redes privadas de escasos kilómetros de longitud que se encuentran en una misma vivienda, edificio o campus.
+            .tarjeta.color-acento-contenido.p-3(x="20%" y="88.3%" numero="+")
+              .h5.mb-2 WAN (Red de área amplia):
+              p.mb-0 Es aquella que abarca un área geográfica grande: un país o un continente.
+            .tarjeta.color-acento-contenido.p-3(x="80%" y="88.3%" numero="+")
+              .h5.mb-2 MAN (Red de área metropolitana):
+              p.mb-0 Es una red que abarca una ciudad; ejemplo: la televisión por cable.
 
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -162,10 +163,12 @@
         .cajon.color-acento-botones.p-4.mb-4
           p.mb-0 Ahora, en el #[i networking] encontramos dos modelos que debemos tener presente: el modelo OSI y el modelo TCP/IP.
     
-    .h5 Conozcamos cada uno de ellos:
+    .h5.mb-5 Conozcamos cada uno de ellos:
 
     .row.justify-content-center.mb-5
-      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-5.col-10.mb-4(data-aos="fade-left")
+        img(src="@/assets/curso/tema1/img11.png")
+      .col-lg-9(data-aos="fade-right")
         TabsA.color-acento-botones.mb-5
           .BGR04.p-4(titulo="El modelo OSI")
             h4 El modelo OSI
@@ -174,9 +177,7 @@
           .BGR04.p-4(titulo="El modelo TCP/IP")
             h4 El modelo TCP/IP
             p Es un modelo de referencia utilizado en #[strong ARPANET] y en el #[strong internet]. 
-            p Puede encontrar información sobre ARPANET en la página web oficial de <a href="https://developer.mozilla.org/es/docs/Glossary/Arpanet" target="_blank" font-weight="bold">Mozilla</a>. 
-      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/tema1/img11.png")
+            p Puede encontrar información sobre ARPANET en la página web oficial de <a href="https://developer.mozilla.org/es/docs/Glossary/Arpanet" target="_blank"><b>Mozilla</b></a>.   
     
     .row.justify-content-center.mb-5
       .col-lg-10

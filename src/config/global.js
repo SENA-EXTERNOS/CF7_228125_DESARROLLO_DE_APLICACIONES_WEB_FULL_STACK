@@ -145,7 +145,7 @@ export default {
     {
       termino: 'Ciclo de vida del desarrollo de <em>software</em>',
       significado:
-        'estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de software, que abarca la vida completa del sistema, desde la definición de los requisitos, hasta la finalización de su uso. (https://ungoti.com/es/soluciones/desarrollo-de-software/sdlc/#:~:text=El%20ciclo%20de%20vida%20del,definici%C3%B3n%20de%20los%20requisitos%20hasta)',
+        'estructura que contiene los procesos, actividades y tareas relacionadas con el desarrollo y mantenimiento de un producto de <em>software</em>, que abarca la vida completa del sistema, desde la definición de los requisitos, hasta la finalización de su uso. (<a href="https://ungoti.com/es/soluciones/desarrollo-de-software/sdlc/#:~:text=El%20ciclo%20de%20vida%20del,definici%C3%B3n%20de%20los%20requisitos%20hasta" target="_blank">https://ungoti.com/es/soluciones/desarrollo-de-software</a>)',
     },
     {
       termino: 'Lenguaje de programación',
@@ -165,7 +165,7 @@ export default {
     {
       termino: 'Patrón de diseño',
       significado:
-        'soluciones habituales a problemas comunes en el diseño de software. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de un código. (https://refactoring.guru/es/design-patterns)',
+        'soluciones habituales a problemas comunes en el diseño de software. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de un código. (<a href="https://refactoring.guru/es/design-patterns" target="_blank">https://refactoring.guru/es/design-patterns</a>)',
     },
     {
       termino: 'Servicios',
@@ -180,11 +180,11 @@ export default {
   referencias: [
     {
       referencia:
-        'Developer Mozilla. (s.f.). Códigos de estado de respuesta HTTP.',
+        '<em>Developer</em> Mozilla. (s.f.). Códigos de estado de respuesta HTTP.',
       link: 'https://developer.mozilla.org/es/docs/Web/HTTP/Status',
     },
     {
-      referencia: 'Garlan, D. (2001). Sofware Architecture.',
+      referencia: 'Garlan, D. (2001). <em>Sofware Architecture</em>.',
       link:
         'http://www.cs.cmu.edu/afs/cs.cmu.edu/project/able/ftp/encycSE2001/encyclopedia-dist.pdf',
     },
