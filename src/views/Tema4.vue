@@ -20,14 +20,16 @@
     .row.justify-content-center.mb-5
       .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
         .row.justify-content-center.mb-4
-          .col-lg-6
+          .col-lg-6.mb-4
             img(src="@/assets/curso/tema4/img02.png")
-        p Los lenguajes de programación compilados son aquellos que necesitan de un traductor o compilador para ejecutarse, o sea, necesitan un compilador que convierte el código escrito en lenguaje, que es legible por el ser humano, a lenguaje máquina; ejemplo: C, C++.
+          .col-lg-11
+            p Los lenguajes de programación compilados son aquellos que necesitan de un traductor o compilador para ejecutarse, o sea, necesitan un compilador que convierte el código escrito en lenguaje, que es legible por el ser humano, a lenguaje máquina; ejemplo: C, C++.
       .col-lg-6.col-10(data-aos="fade-left")
         .row.justify-content-center.mb-4
-          .col-lg-6
+          .col-lg-6.mb-4
             img(src="@/assets/curso/tema4/img03.png")
-        p Un lenguaje interpretado es aquel que se ejecuta sin que se genere código - objeto; por ejemplo: PHP, Python, JavaScript.
+          .col-lg-11
+            p Un lenguaje interpretado es aquel que se ejecuta sin que se genere código - objeto; por ejemplo: PHP, Python, JavaScript.
 
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
@@ -187,7 +189,7 @@
 
     .row.justify-content-center
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-        AcordionA.mb-5(tipo="a" clase-tarjeta="BGR17")
+        AcordionA.mb-5(tipo="a" clase-tarjeta="BGR19")
           div(titulo="MERN")
             p.mb-0 Estas son las siglas de MongoDB, Express.js, React JS, Node JS. MongoDB es un motor de base de datos no relacional. Express es un #[em framework] que usa el entorno de ejecución de Node JS que se usa para trabajar BackEnd. React JS es una librería que originalmente empezó usando el lenguaje de programación Javascript para construcción de interfaces gráficas de usuario (FrontEnd).
           div(titulo="MEAN")
@@ -195,7 +197,7 @@
           div(titulo="LAMP")
             p Son las siglas de Linux, Apache, MySQL, PHP. Linux es un sistema operativo que serviría de plataforma para la instalación del servidor de aplicaciones Apache, y MySQL es un motor de base de datos.
           div(titulo=".NET")
-            p Es un ecosistema o framework, propiedad de Microsoft para la construcción de aplicaciones; usa  lenguajes de programación como Visual basic o C#, entre otros.
+            p Es un ecosistema o #[em framework], propiedad de Microsoft para la construcción de aplicaciones; usa  lenguajes de programación como Visual basic o C#, entre otros.
           div(titulo="Ruby On Rails")
             p Es un #[em framework] para construir aplicaciones #[i full stack] con el lenguaje de programación Ruby.
       .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")

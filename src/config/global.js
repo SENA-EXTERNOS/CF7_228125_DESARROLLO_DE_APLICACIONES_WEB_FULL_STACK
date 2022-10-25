@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Selección de la arquitectura de <em>software</em>',
     descripcionCurso:
-      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores <em>web</em>, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como desarrollador <em> <e</em>m>full stack</em>.',
+      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores <em>web</em>, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como <em>desarrollador full stack</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
