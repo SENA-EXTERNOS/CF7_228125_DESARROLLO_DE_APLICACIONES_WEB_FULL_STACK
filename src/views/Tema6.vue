@@ -15,7 +15,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4.p-4(data-aos="fade-down-right")
         img(src="@/assets/curso/tema6/img01.png")
     
-    p “El servicio TCP se obtiene al hacer que tanto el servidor como el cliente creen puntos terminales, llamados sockets. Cada socket tiene un número (dirección), que consiste en la dirección IP del host, y un número de 16 bits, que es local a ese host, llamado puerto [sic]”. (Hernández, G., s.f.)
+    p “El servicio TCP se obtiene al hacer que tanto el servidor como el cliente creen puntos terminales, llamados sockets. Cada socket tiene un número (dirección), que consiste en la dirección IP del host, y un número de 16 bits, que es local a ese host, llamado #[b puerto] [sic]”. (Hernández, G., s.f.)
 
     .h5.mb-5 Algunos tipos de puertos son:
 
@@ -24,45 +24,44 @@
         img(src="@/assets/curso/tema6/img02.png")
       .col-lg-6
         AcordionA.mb-5(tipo="a" clase-tarjeta="BGR17")
-          div(titulo="HTTP (Hyper Text Transfer Protocol)")
-            p Protocolo de transferencia utilizada en el World Wide Web, especifica cuáles mensajes pueden enviar los clientes a los servidores y qué respuestas obtienen. HTTP soporta distintos métodos que se relacionan en la siguiente tabla:
-            .tabla-b.mb-5(data-aos="zoom-in")
-              table
-                tr
-                  th(style="background-color: #285894;").text-center.text-white Método
-                  th(style="background-color: #285894;" colspan="3").text-center.text-white Uso / descripción
-                tr
-                  td(style="background-color: #F6F6F6;").text-center Get
-                  td(style="background-color: #F6F6F6;" colspan="3").text-center Petición de lectura.
-                tr
-                  td(style="background-color: #FFF;").text-center Head
-                  td(style="background-color: #FFF;" colspan="3").text-center Petición lectura de encabezado.
-                tr
-                  td(style="background-color: #F6F6F6;").text-center Put
-                  td(style="background-color: #F6F6F6;" colspan="3").text-center Petición almacenamiento para edición.
-                tr
-                  td(style="background-color: #FFF;").text-center Patch
-                  td(style="background-color: #FFF;" colspan="3").text-center Igual a put, pero para parte del recurso a editar.
-                tr
-                  td(style="background-color: #F6F6F6;").text-center Post
-                  td(style="background-color: #F6F6F6;" colspan="3").text-center Petición de guardado de recursos.
-                tr
-                  td(style="background-color: #FFF;").text-center Delete
-                  td(style="background-color: #FFF;" colspan="3").text-center Petición para eliminar recursos.
-                tr
-                  td(style="background-color: #F6F6F6;").text-center Trace
-                  td(style="background-color: #F6F6F6;" colspan="3").text-center Repite solicitud entrante.
-                tr
-                  td(style="background-color: #FFF;").text-center Connect
-                  td(style="background-color: #FFF;" colspan="3").text-center Reservado para uso futuro.
-                tr
-                  td(style="background-color: #F6F6F6;").text-center Options
-                  td(style="background-color: #F6F6F6;" colspan="3").text-center Consulta ciertas opciones.
-          div(titulo="FTP (File Transfer Protocol)")
+          div(titulo="HTTP (<em>Hyper Text Transfer Protocol</em>)")
+            p Protocolo de transferencia utilizada en el #[em World Wide Web], especifica cuáles mensajes pueden enviar los clientes a los servidores y qué respuestas obtienen. HTTP soporta distintos métodos que se relacionan en la siguiente tabla:
+            table.mb-5(data-aos="zoom-in")
+              tr
+                th(style="background-color: #285894; width: 20%").text-center.text-white Método
+                th(style="background-color: #285894; width: 80%").text-center.text-white Uso / descripción
+              tr
+                td(style="background-color: #F6F6F6;").text-center Get
+                td(style="background-color: #F6F6F6;").text-center Petición de lectura.
+              tr
+                td(style="background-color: #FFF;").text-center Head
+                td(style="background-color: #FFF;").text-center Petición lectura de encabezado.
+              tr
+                td(style="background-color: #F6F6F6;").text-center Put
+                td(style="background-color: #F6F6F6;").text-center Petición almacenamiento para edición.
+              tr
+                td(style="background-color: #FFF;").text-center Patch
+                td(style="background-color: #FFF;").text-center Igual a put, pero para parte del recurso a editar.
+              tr
+                td(style="background-color: #F6F6F6;").text-center Post
+                td(style="background-color: #F6F6F6;").text-center Petición de guardado de recursos.
+              tr
+                td(style="background-color: #FFF;").text-center Delete
+                td(style="background-color: #FFF;").text-center Petición para eliminar recursos.
+              tr
+                td(style="background-color: #F6F6F6;").text-center Trace
+                td(style="background-color: #F6F6F6;").text-center Repite solicitud entrante.
+              tr
+                td(style="background-color: #FFF;").text-center Connect
+                td(style="background-color: #FFF;").text-center Reservado para uso futuro.
+              tr
+                td(style="background-color: #F6F6F6;").text-center Options
+                td(style="background-color: #F6F6F6;").text-center Consulta ciertas opciones.
+          div(titulo="FTP (<em>File Transfer Protocol</em>)")
             p.mb-0 Los servidores FTP casualmente son los que trabajan con el protocolo de transferencia de archivos. El puerto de conexión por defecto de FTP es el 21.
-          div(titulo="XMPP (Extensible Messaging and Presence Protocol)")
+          div(titulo="XMPP (<em>Extensible Messaging and Presence Protocol</em>)")
             p.mb-0 Estándar abierto para mensajería y presencia.
-          div(titulo="SMTP (Simple Mail Transfer Protocol)")
+          div(titulo="SMTP (<em>Simple Mail Transfer Protocol</em>)")
             p.mb-0 En internet, el correo electrónico se entrega al hacer que la máquina de origen establezca una conexión TCP con el puerto 25 de la máquina de destino. Escuchando en este puerto está un demonio de correo electrónico que habla con el SMTP (Protocolo Simple de Transporte de Correo); este demonio acepta conexiones de entrada y copia mensajes de ellas a los buzones adecuados. Si no puede entregarse un mensaje, se devuelve al remitente un informe de error que contiene la primera parte del mensaje que no fue posible entregarse.
 
     .h5.mb-5 Para ampliar la información consulte los siguientes enlaces:
@@ -92,7 +91,7 @@
       p En el siguiente video se explicará cómo realizar la instalación de algunas de estas herramientas recomendadas de trabajo.
       figure(data-aos="zoom-out")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/j4qYKY-98qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

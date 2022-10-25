@@ -9,7 +9,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-7.BG10.p-5.order-lg-1.order-2.mx-0(data-aos="fade-right")
-        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un #[i software] especial que “controla” el #[i hardware], el cual es aquella parte de un “sistema de cómputo” que se puede tocar: monitor, teclado, #[i mouse] o ratón, CPU, memoria RAM; incluso, los mismos dispositivos de red. #[i Software] es aquello que no se puede tocar, por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación web, una aplicación de escritorio. 
+        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un #[i software] especial que “controla” el #[i #[b hardware]], el cual es aquella parte de un “sistema de cómputo” que se puede tocar: monitor, teclado, #[i mouse] o ratón, CPU, memoria RAM; incluso, los mismos dispositivos de red. #[i Software] es aquello que no se puede tocar, por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación #[em web], una aplicación de escritorio. 
       .col-lg-5.col-10.BG11.p-4.order-lg-2.order-1.mb-lg-0.mb-4.mx-0(data-aos="fade-left")
         .row.justify-content-center
           .col-9
@@ -51,27 +51,24 @@
     .h5.mb-5 También existen versiones exclusivas de estos sistemas operativos para servidores y redes, pero con características especiales para trabajar en red. Estas versiones son:
 
     TabsC.color-acento-botones.mb-5
-      .BG05.p-3.p-md-4(titulo="Windows")
+      .BG05.p-3.p-md-4(titulo="<b>Windows</b>")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img04.png")
           .col-md-6
-            h4 Windows
             p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y usadas en el mercado actualmente se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente cada año se publica una versión, y su nombre está ligado con el año de distribución, por ejemplo: Windows Server 2012. Las versiones de Windows Server son de pago.
-      .BG05.p-3.p-md-4(titulo="GNU/Linux")
+      .BG05.p-3.p-md-4(titulo="<b>GNU/Linux</b>")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img05.png")
           .col-md-6
-            h4 GNU/Linux
             p GNU es un sistema operativo de #[i software] libre, es decir, respeta la libertad de los usuarios. Linux es el Kernel o núcleo de GNU y la combinación de ambos, el sistema operativo GNU/Linux.
             p.mb-0 Existen versiones para servidores “gratuitos”: Ubuntu Server, CentOS, Fedora, y otras de pago como RedHat Enterprise Server.
-      .BG05.p-3.p-md-4(titulo="Mac OS X Server")
+      .BG05.p-3.p-md-4(titulo="<b>Mac OS X Server</b>")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img06.png")
           .col-md-6
-            h4 Mac OS X Server
             p.mb-0 Son los menos usados en el mercado para propósito de servidores.
             
     .cajon-b.color-acento-botones.p-3.mb-5(data-aos="fade-right")
@@ -84,7 +81,7 @@
       .col-lg-8(data-aos="fade-left")
         .bloque-texto-b.color-acento-contenido.p-4
           .bloque-texto-b__texto
-            p.mb-0 Una vez se tiene el sistema operativo instalado en un dispositivo, al <em>hardware</em> en particular o un <em>software</em> especial para que pueda ser manipulado; es lo que se llama <em>drivers</em>. Muchas veces se conecta algún periférico: impresora, cámara, lector de huella, etc., pero el computador no es capaz de reconocerlos, surge entonces la necesidad de instalar dichos <em>drivers</em> o controladores para que se puedan realizar los trabajos con este periférico de manera adecuada. Los sistemas operativos modernos ya poseen la mayoría de los <em>drivers</em> para los dispositivos periféricos comunes comerciales, simplemente se conecta y, de manera casi inmediata, es reconocido.
+            p.mb-0 Una vez se tiene el sistema operativo instalado en un dispositivo, al <em>hardware</em> en particular o un <em>software</em> especial para que pueda ser manipulado; es lo que se llama <em><b>drivers</b></em>. Muchas veces se conecta algún periférico: impresora, cámara, lector de huella, etc., pero el computador no es capaz de reconocerlos, surge entonces la necesidad de instalar dichos <em>drivers</em> o controladores para que se puedan realizar los trabajos con este periférico de manera adecuada. Los sistemas operativos modernos ya poseen la mayoría de los <em>drivers</em> para los dispositivos periféricos comunes comerciales, simplemente se conecta y, de manera casi inmediata, es reconocido.
 
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -94,11 +91,11 @@
 
     .h5.mb-5 Normalmente se les instala un sistema operativo para servidor y poseen los siguientes recursos:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-6.order-md-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="BGR08")
           div(titulo="Memoria RAM")
-            p Es un dispositivo de hardware, normalmente en forma de tarjetas modulares que se insertan en la placa base o #[i Motherboard]. Se encarga del almacenamiento e intercambio de información de manera temporal. Mientras trabaja con su equipo de cómputo estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en bytes y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información hasta 5 200 MHz, tanto para computadores personales como para servidores.
+            p Es un dispositivo de #[em hardware], normalmente en forma de tarjetas modulares que se insertan en la placa base o #[i Motherboard]. Se encarga del almacenamiento e intercambio de información de manera temporal. Mientras trabaja con su equipo de cómputo estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en #[em bytes] y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información hasta 5 200 MHz, tanto para computadores personales como para servidores.
           div(titulo="CPU")
             p Es la unidad de almacenamiento central o procesador, llamado muchas veces como el “cerebro” de la computadora porque es el que lleva a cabo las principales funciones de gestión y cálculos que se realizan en esta.        
           div(titulo="Disco duro o rígido")
@@ -121,7 +118,7 @@
         .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
           figure.mb-4
             img(src="@/assets/curso/tema2/img10.png")
-          .h5.text-white.text-center Amazon (Amazon Web Service)
+          .h5.text-white.text-center Amazon (Amazon #[em Web Service])
         .col-lg-4.mb-lg-0.mb-4(data-aos="flip-up")
           figure.mb-4
             img(src="@/assets/curso/tema2/img11.png")

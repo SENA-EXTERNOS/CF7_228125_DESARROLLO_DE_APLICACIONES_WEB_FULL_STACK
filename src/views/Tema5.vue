@@ -14,7 +14,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.text-white Un ejemplo claro de base de datos es una biblioteca, allí se encuentra la información clasificada y organizada. Otro ejemplo son los libros contables en papel ―no sistematizados― de los pequeños negocios, incluso hojas de Excel donde alguien lleve sus cuentas.
   
-    p Hoy en día, los sistemas de información de cualquier tamaño poseen una base de datos, así sea almacenada en archivos planos de texto. Anteriormente, en la mayoría de las aplicaciones persistían los datos en archivos o ficheros. Luego, se optó por usar motores de bases de datos por todas las ventajas que poseen, tales como: la velocidad de acceso a la información, el fácil mantenimiento, la consistencia de los datos, etc. En sus aplicaciones web será indispensable que cree bases de datos y las integre con estas.
+    p Hoy en día, los sistemas de información de cualquier tamaño poseen una base de datos, así sea almacenada en archivos planos de texto. Anteriormente, en la mayoría de las aplicaciones persistían los datos en archivos o ficheros. Luego, se optó por usar motores de bases de datos por todas las ventajas que poseen, tales como: la velocidad de acceso a la información, el fácil mantenimiento, la consistencia de los datos, etc. En sus aplicaciones <em>web</em> será indispensable que cree bases de datos y las integre con estas.
     .h5.mb-5 Es importante aclarar y saber diferenciar entre:
 
     .row.justify-content-center.mb-4
@@ -22,13 +22,13 @@
         TabsA.color-acento-botones.mb-5
           .BGR18.p-4(titulo="Gestor de base de datos")
             h4 Gestor de base de datos
-            p.mb-0 Es aquel software especializado para realizar conexión con un motor de base de datos y todo tipo de operaciones: gestión de usuarios, bases de datos y sentencias con el motor como consultas, creación, borrados y actualizaciones que suelen ser de forma “grafica” o “consola”. Ejemplo de estos: DBEaver, MySQL Workbench, PgMyAdmin, PHPMyAdmin, SQL Server.
+            p.mb-0 Es aquel #[em software] especializado para realizar conexión con un motor de base de datos y todo tipo de operaciones: gestión de usuarios, bases de datos y sentencias con el motor como consultas, creación, borrados y actualizaciones que suelen ser de forma “gráfica” o “consola”. Ejemplo de estos: DBEaver, MySQL Workbench, PgMyAdmin, PHPMyAdmin, SQL Server.
           .BGR18.p-4(titulo="Sistema gestor de base de datos")
             h4 Sistema gestor de base de datos
-            p.mb-0 Se refiere a todo el conjunto que entra en juego con la base de datos: los usuarios que interactúan y las herramientas necesarias o software para trabajar con las bases de datos, motores, incluso el gestor de base de datos y la infraestructura asociada.
+            p.mb-0 Se refiere a todo el conjunto que entra en juego con la base de datos: los usuarios que interactúan y las herramientas necesarias o #[em software] para trabajar con las bases de datos, motores, incluso el gestor de base de datos y la infraestructura asociada.
           .BGR18.p-4(titulo="Motor de base de datos")
             h4 Motor de base de datos
-            p.mb-0 Es un software para administración de bases de datos.
+            p.mb-0 Es un #[em software] para administración de bases de datos.
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img02.png")
 
@@ -91,13 +91,13 @@
       span Diferencias bases de datos relacionales y no relacionales
     
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-8
         .tabla-b.mb-5(data-aos="zoom-in")
           table
             tr
-              th(style="background-color: #63C8AF;").text-center Tipo
-              th(style="background-color: #63C8AF;").text-center SQL
-              th(style="background-color: #63C8AF;").text-center NoSQL
+              th(style="background-color: #63C8AF; width: 24%;").text-center Tipo
+              th(style="background-color: #63C8AF; width: 38%").text-center SQL
+              th(style="background-color: #63C8AF; width: 38%").text-center NoSQL
             tr
               td(style="background-color: #F6F6F6;").text-center 
               td(style="background-color: #F6F6F6;").text-center Base datos
@@ -120,8 +120,8 @@
               td(style="background-color: #F6F6F6;").text-center Llave primaria
             tr
               th.text-center Usos
-              td.text-center Web, móvil, empresarial, datamart.
-              td.text-center Videojuegos, redes sociales, IoT, web, móvil, empresarial
+              td.text-center <em>Web</em>, móvil, empresarial, #[em datamart].
+              td.text-center Videojuegos, redes sociales, IoT, <em>web</em>, móvil, empresarial
     
     .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -135,7 +135,7 @@
           li 
             .lista-ol--cuadro__vineta
               span 2
-            | Un estudio comparativo de Bases de Datos Relaciónales y Bases de Datos NoSQL
+            | Un estudio comparativo de Bases de Datos Relacionales y Bases de Datos NoSQL
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema5/img12.jpg")
 
@@ -150,9 +150,9 @@
       SlyderA(tipo="b")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
-            .h5 Servidores web
-            p Es un software especial para el procesamiento de peticiones en doble dirección cuando un cliente le solicita. También se le llama servidores HTTP, servidores que deben contar con un hardware. Hoy en día se habla de servidores web en la nube, pero al final estos también necesitan un hardware para funcionar.
-            p.mb-0 En este tipo de servidores normalmente se alojan las páginas web que consulta día a día, y aplicaciones de compra, plataformas streaming, de música, etc., a las cuales accede mediante su navegador.
+            .h5 Servidores <em>web</em>
+            p Es un #[em software] especial para el procesamiento de peticiones en doble dirección cuando un cliente le solicita. También se le llama servidores HTTP, servidores que deben contar con un #[em hardware]. Hoy en día se habla de servidores <em>web</em> en la nube, pero al final estos también necesitan un #[em hardware] para funcionar.
+            p.mb-0 En este tipo de servidores normalmente se alojan las páginas <em>web</em> que consulta día a día, y aplicaciones de compra, plataformas #[em streaming], de música, etc., a las cuales accede mediante su navegador.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img14.png")
         .row.justify-content-center
@@ -168,16 +168,16 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img16.png")
 
-    .h5.mb-5 Ampliemos la información sobre los servidores web.
+    .h5.mb-5 Ampliemos la información sobre los servidores <em>web</em>.
 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema5/img17.png')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p.mb-0 Anteriormente se hablaba de “sistemas operativos para red”, los cuales se instalan en servidores físicos utilizados para distintos propósitos, entre ellos el de “servir” para la comunicación web. Se podría afirmar que al referirnos a un servidor web se está hablando de un servidor físico con un sistema operativo especial para red o un software como servidor, el cual se menciona a continuación: <br><br>
+        p.mb-0 Anteriormente se hablaba de “sistemas operativos para red”, los cuales se instalan en servidores físicos utilizados para distintos propósitos, entre ellos el de “servir” para la comunicación <em>web</em>. Se podría afirmar que al referirnos a un servidor <em>web</em> se está hablando de un servidor físico con un sistema operativo especial para red o un #[em software] como servidor, el cual se menciona a continuación: <br><br>
     
-    p Pero antes de hacer mención veamos qué diferencia hay entre un servidor web y un contenedor de aplicaciones. Un contenedor de aplicaciones es un software que puede alojarse dentro de un servidor web. 
+    p Pero antes de hacer mención veamos qué diferencia hay entre un servidor <em>web</em> y un contenedor de aplicaciones. Un contenedor de aplicaciones es un #[em software] que puede alojarse dentro de un servidor <em>web</em>. 
 
     .row.justify-content-end.mb-4(data-aos="flip-up")
       .col-lg-8.col-10
@@ -185,31 +185,31 @@
           .anexo__icono
             img(src="@/assets/template/icono-link-red.svg")
           .anexo__texto
-            p #[strong Enlace web]. Apache Tomcat es un contenedor de aplicaciones de código abierto bastante usado para desplegar aplicaciones con Java en entorno web.
+            p #[strong Enlace <em>web</em>]. Apache Tomcat es un contenedor de aplicaciones de código abierto bastante usado para desplegar aplicaciones con Java en entorno <em>web</em>.
 
-    .h5.mb-5 Algunos servidores web bastante demandados en el mercado son:
+    .h5.mb-5 Algunos servidores <em>web</em> bastante demandados en el mercado son:
 
     SlyderF.mb-5(columnas="col-lg-4 col-md-6")
       .tarjeta-avatar
         img(src='@/assets/curso/tema5/img18.png' alt='AvatarTop')
-        .BGR10.p-4
+        .BGR10.sliderH.p-4
           .h4.text-center.text-white.mt-5 Apache
           p.text-center.text-white Servidor HTTP de código abierto; se puede instalar sobre distintas plataformas como Linux, Window, MacOS. El puerto HTTP por defecto de Apache Server es el 80 y el puerto seguro es el 443.
       .tarjeta-avatar
         img(src='@/assets/curso/tema5/img19.png' alt='AvatarTop')
-        .BGR10.p-4
+        .BGR10.sliderH.p-4
           .h4.text-center.text-white.mt-5 Microsoft IIS
-          p.text-center.text-white Propiedad de Microsoft. Se pueden hacer despliegues de varios tipos de aplicaciones realizadas en PHP, JS, etc., pero es especial para aplicaciones construidas con el Framework .NET.
+          p.text-center.text-white Propiedad de Microsoft. Se pueden hacer despliegues de varios tipos de aplicaciones realizadas en PHP, JS, etc., pero es especial para aplicaciones construidas con el #[em Framework] .NET.
       .tarjeta-avatar
         img(src='@/assets/curso/tema5/img20.png' alt='AvatarTop')
-        .BGR10.p-4.pb-5
+        .BGR10.sliderH.p-4.pb-5
           .h4.text-center.text-white.mt-5 Nginx
-          p.text-center.text-white.mb-5 Es un servidor web/proxy. Muchos han migrado a él porque han encontrado mejoramiento en su rendimiento. También es de código abierto.
+          p.text-center.text-white.mb-5 Es un servidor <em>web</em>/proxy. Muchos han migrado a él porque han encontrado mejoramiento en su rendimiento. También es de código abierto.
       .tarjeta-avatar
         img(src='@/assets/curso/tema5/img21.png' alt='AvatarTop')
-        .BGR10.p-4.pb-5
+        .BGR10.sliderH.p-4.pb-5
           .h4.text-center.text-white.mt-5 GWS
-          p.text-center.text-white.mb-5 El gigante de Google también tiene su servidor, usado para su infraestructura concerniente a la web.<br><br><br>
+          p.text-center.text-white.mb-5 El gigante de Google también tiene su servidor, usado para su infraestructura concerniente a la <em>web</em>.
 
 </template>
 

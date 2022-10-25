@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Selección de la arquitectura de <em>software</em>',
     descripcionCurso:
-      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores web, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como desarrollador web <em>full stack</em>.',
+      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores <em>web</em>, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como desarrollador <em> <e</em>m>full stack</em>.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -150,7 +150,7 @@ export default {
     {
       termino: 'Lenguaje de programación',
       significado:
-        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos.',
+        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la <em>web</em>, móviles, dispositivos embebidos.',
     },
     {
       termino: 'Medios de comunicación',

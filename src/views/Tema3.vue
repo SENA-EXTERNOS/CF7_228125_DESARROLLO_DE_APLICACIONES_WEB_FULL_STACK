@@ -134,11 +134,11 @@
                 :style="{'background-image': `url(${require('@/assets/curso/tema3/img09.png')})`}"
               )
               .bloque-texto-g__texto.p-4
-                p.text-white A su vez, esta arquitectura tiene varios tipos: 2-tier (2 niveles o capas).<br><br>
-                p.mb-0.text-white En esta arquitectura el cliente y el servidor se comunican entre sí sin ningún punto o nodo intermedio; aunque proporciona un servicio rápido, puede ocasionar agujeros de seguridad y problemas de rendimiento. Ejemplo: Internet Explorer utiliza una arquitectura de servidor de cliente de 2 niveles, 3-tier (3 niveles o capas); en esta, un nodo más ―llamado nivel medio― se encuentra entre el cliente y el servidor. El nivel medio toma la solicitud del cliente, lo autentica, aprueba y luego lo pasa al servidor. También se habla de n-tier (multinivel).
+                p.text-white A su vez, esta arquitectura tiene varios tipos: 2-<em>tier</em> (2 niveles o capas).<br><br>
+                p.mb-0.text-white En esta arquitectura el cliente y el servidor se comunican entre sí sin ningún punto o nodo intermedio; aunque proporciona un servicio rápido, puede ocasionar agujeros de seguridad y problemas de rendimiento. Ejemplo: Internet Explorer utiliza una arquitectura de servidor de cliente de 2 niveles, 3-<em>tier</em> (3 niveles o capas); en esta, un nodo más ―llamado nivel medio― se encuentra entre el cliente y el servidor. El nivel medio toma la solicitud del cliente, lo autentica, aprueba y luego lo pasa al servidor. También se habla de n-<em>tier</em> (multinivel).
       
       #collapse02.collapse(:class="{show: hash ? hash == 2 : false}" data-bs-parent='#MapaGroup01')
-        .h5 <span style="background-color:#FECB2F; padding: 2px">b.</span>	Arquitectura por capas (Layered)
+        .h5 <span style="background-color:#FECB2F; padding: 2px">b.</span>	Arquitectura por capas (#[em Layered])
         .row.justify-content-center.align-items-end.mb-5
           .col-lg-7.order-lg-1.order-2
             p También es catalogada como un estilo arquitectónico. En ejemplos de arquitectura por capas están el modelo OSI y el modelo TCP/IP, en donde hay una interacción entre los componentes de una misma capa o con las capas adyacentes. Todas trabajan por una tarea en común.
@@ -163,7 +163,7 @@
                 .h5.mb-2 Capa de infraestructura
                 p Esta capa incorpora servicios de datos, servicios de red y otros servicios de infraestructura.
         .cajon.color-acento-botones.p-4
-          p Observación: cuando se llevan al español los términos tier y layer se tienden a confundir, por eso es mejor hablar de tier como nivel y de layer como capa. Tier para referirse a lo físico, layer como parte del código o parte lógica.
+          p Observación: cuando se llevan al español los términos <em>tier</em> y #[em layer] se tienden a confundir, por eso es mejor hablar de <em>tier</em> como nivel y de #[em layer] como capa. <em>Tier</em> para referirse a lo físico, #[em layer] como parte del código o parte lógica.
       
       #collapse03.collapse(:class="{show: hash ? hash == 3 : false}" data-bs-parent='#MapaGroup01')
         .h5 <span style="background-color:#FECB2F; padding: 2px">c.</span>	Arquitectura orientada a servicios (SOA)
@@ -179,19 +179,18 @@
           .col-lg-4.col-8.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img13.png')
           .col-lg-7
-            p Las pioneras de esta arquitectura fueron importantes plataformas de entretenimiento, servicio de streaming y de comercio electrónico. Fue tan bueno el resultado, que otras empresas decidieron adoptar el modelo y seguirlo. Tales plataformas se consideran también un estilo arquitectónico consistente en que las aplicaciones se dividen en sus elementos más pequeños e independientes entre sí. A diferencia del enfoque tradicional y monolítico de las aplicaciones, en el que todo se compila en una sola pieza, los microservicios son elementos independientes que funcionan en conjunto para llevar a cabo las mismas tareas. Cada uno de esos elementos o procesos es un microservicio.
+            p Las pioneras de esta arquitectura fueron importantes plataformas de entretenimiento, servicio de #[em streaming] y de comercio electrónico. Fue tan bueno el resultado, que otras empresas decidieron adoptar el modelo y seguirlo. Tales plataformas se consideran también un estilo arquitectónico consistente en que las aplicaciones se dividen en sus elementos más pequeños e independientes entre sí. A diferencia del enfoque tradicional y monolítico de las aplicaciones, en el que todo se compila en una sola pieza, los microservicios son elementos independientes que funcionan en conjunto para llevar a cabo las mismas tareas. Cada uno de esos elementos o procesos es un microservicio.
 
       #collapse05.collapse(:class="{show: hash ? hash == 5 : false}" data-bs-parent='#MapaGroup01')
         .h5 <span style="background-color:#FECB2F; padding: 2px">e.</span>	El Modelo Vista Controlador (MVC)
+      
+        .bloque-texto-g.color-acento-botones.img-inv2.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema3/img14.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Según el concepto de patrón arquitectónico, el MVC se puede considerar así, un patrón de arquitectura, que, de hecho, es bastante común en el diseño de #[i software]. Cabe resaltar que otros autores lo pueden considerar como una estructura, y otros, de manera errada, mencionan que es un patrón de diseño.
 
-
-        .row.justify-content-center.align-items-center.mb-4
-          .col-lg-6.col-10.BG23.py-5.ps-5.pe-0.mx-0.order-lg-1.order-2
-            .BG13.p-4
-              p.mb-0 Según el concepto de patrón arquitectónico, el MVC se puede considerar así, un patrón de arquitectura, que, de hecho, es bastante común en el diseño de #[i software]. Cabe resaltar que otros autores lo pueden considerar como una estructura, y otros, de manera errada, mencionan que es un patrón de diseño.
-          .col-lg-6.col-10.BG24.mb-lg-0.mb-4.py-5.px-0.order-lg-2.order-1
-            img(src='@/assets/curso/tema3/img14.png')
-        
         .row.justify-content-center.mb-4
           .col-lg-5.mb-lg-0.mb-4
             img(src='@/assets/curso/tema3/img15.png')
@@ -208,7 +207,7 @@
                 <i class="fas fa-play" style="color:#EF3C79"></i>
                 | Controlador: procesa las acciones del usuario (enviadas desde la vista) para actualizar el modelo y reenviar esas actualizaciones a la vista.
             hr
-            p Con MVC puede lograr el diseño de buenas prácticas de código, creando estructuras de namespaces, paquetes o directorios para tener un proyecto organizado a nivel de código que puede ser más fácil de mantener y entender.
+            p Con MVC puede lograr el diseño de buenas prácticas de código, creando estructuras de #[em namespaces], paquetes o directorios para tener un proyecto organizado a nivel de código que puede ser más fácil de mantener y entender.
 
     .bloque-texto-g.img-inv.color-primario.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(

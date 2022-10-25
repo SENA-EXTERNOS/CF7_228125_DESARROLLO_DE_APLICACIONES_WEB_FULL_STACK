@@ -4,26 +4,31 @@
     position: absolute
     top: 75%
     left: 3%
+    width: 15%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
     left: 0%
+    width: 20%
   &-3
     animation: float1 6.8s ease-in-out infinite alternate
     position: absolute
     top: 20%
     left: 10%
+    width: 15%
   &-4
     animation: float2 7.8s ease-in-out infinite alternate
     position: absolute
     top: 10%
     right: 25%
+    width: 17%
   &-5
     animation: float1 4.8s ease-in-out infinite alternate
     position: absolute
     top: 40%
     right: 25%
+    width: 15%
 
 
 @keyframes float1
@@ -48,6 +53,13 @@
 
 .img-inv .bloque-texto-g__texto
   left: -40%
+
+.img-inv2 .bloque-texto-g__img
+  left: 50%
+
+.img-inv2 .bloque-texto-g__texto
+  left: -50%
+  width: 50%
 
 .BG01
   background-color: #E9EEF4
@@ -148,7 +160,7 @@
   @media (max-width: $bp-max-sm)
     margin-inline: -1.4rem !important
 
-.BGR10, .BGR13, .BGR15, .BGR16, .BG24
+.BGR13, .BGR15, .BGR16, .BG24
   height: 100%
 
 .BGIMG01
@@ -213,3 +225,13 @@ button:focus, button:hover
 .slyder-a__bullets__item
   background-color: #9BC0D3
 
+.sliderH
+  height: 291px
+  @media (max-width: $bp-max-xl)
+    height: 315px
+  @media (max-width: $bp-max-lg)
+    height: 363px
+  @media (max-width: $bp-max-md)
+    height: 339px
+  @media (max-width: $bp-max-sm)
+    height: 250px
