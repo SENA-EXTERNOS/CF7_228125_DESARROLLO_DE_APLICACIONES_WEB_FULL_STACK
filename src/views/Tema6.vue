@@ -91,7 +91,7 @@
       p En el siguiente video se explicará cómo realizar la instalación de algunas de estas herramientas recomendadas de trabajo.
       figure(data-aos="zoom-out")
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/j4qYKY-98qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/jq55pEcMh7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 
