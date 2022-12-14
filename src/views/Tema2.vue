@@ -51,20 +51,20 @@
     .h5.mb-5 También existen versiones exclusivas de estos sistemas operativos para servidores y redes, pero con características especiales para trabajar en red. Estas versiones son:
 
     TabsC.color-acento-botones.mb-5
-      .BG05.p-3.p-md-4(titulo="<b>Windows</b>")
+      .BG05.p-3.p-md-4(titulo="Windows")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img04.png")
           .col-md-6
             p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y usadas en el mercado actualmente se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente cada año se publica una versión, y su nombre está ligado con el año de distribución, por ejemplo: Windows Server 2012. Las versiones de Windows Server son de pago.
-      .BG05.p-3.p-md-4(titulo="<b>GNU/Linux</b>")
+      .BG05.p-3.p-md-4(titulo="GNU/Linux")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img05.png")
           .col-md-6
             p GNU es un sistema operativo de #[i software] libre, es decir, respeta la libertad de los usuarios. Linux es el Kernel o núcleo de GNU y la combinación de ambos, el sistema operativo GNU/Linux.
             p.mb-0 Existen versiones para servidores “gratuitos”: Ubuntu Server, CentOS, Fedora, y otras de pago como RedHat Enterprise Server.
-      .BG05.p-3.p-md-4(titulo="<b>Mac OS X Server</b>")
+      .BG05.p-3.p-md-4(titulo="Mac OS X Server")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img06.png")
