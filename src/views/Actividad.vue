@@ -10,7 +10,7 @@
             img(src="@/assets/template/opcion-multiple.svg")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Selección múltiple
+          h2 Selección de la arquitectura de <em>software</em>
         p.mb-4 Apreciado aprendiz, a continuación encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

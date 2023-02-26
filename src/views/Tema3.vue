@@ -7,13 +7,13 @@
         span 3
       h1 Modelos de arquitectura
     
-    p La mayoría de los conceptos e ideas de #[strong arquitectura de #[i software]] provienen de arquitectura de edificios. Quizá no somos arquitectos, pero tenemos la idea de que un arquitecto, antes de llevar a cabo sus proyectos, diseña los planos de sus casas o edificios y presenta sus #[strong estilos arquitectónicos], puede presentar unos tiempos y materiales necesarios para la construcción
+    p La mayoría de los conceptos e ideas de <b>arquitectura de software</b>, provienen de arquitectura de edificios. Quizá no somos arquitectos, pero tenemos la idea que, un arquitecto, antes de llevar a cabo sus proyectos, diseña los planos de sus casas o edificios y presenta sus <b>estilos arquitectónicos</b>; presenta unos tiempos y unos materiales necesarios para la construcción.
 
     .row.justify-content-center.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         .cajon.color-acento-botones.p-4.mb-4
-          p Existen estilos arquitectónicos propuestos y llevados a cabo por autores que han sido probados en grandes organizaciones y han funcionado con éxito, y por eso se usan aún; algunos no,o llegan nuevos que los sustituyen. Incluso, el arquitecto puede crear su propio estilo o patrón.
-        p Arquitectura de #[i software] es una definición algo relativa. Se podría decir que no hay concepto exacto de ello, de hecho, puede ser complejo. A continuación presentamos una definición que parece bastante acertada y comprensible:
+          p Existen estilos arquitectónicos propuestos y llevados a cabo por autores, que han sido probados en grandes organizaciones y han funcionado con éxito y, por esta razón, aún se utilizan; algunos no sobreviven, o llegan diseños nuevos que los sustituyen. Incluso, el arquitecto, puede crear su propio estilo o patrón.
+        p Arquitectura de <i>software</i> es una definición algo relativa. Se podría decir que no hay un concepto exacto de eso, inclusive, puede ser complejo. A continuación, presentamos una definición que parece bastante acertada y comprensible:
       .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img01.jpg")
 
@@ -23,14 +23,10 @@
           .col-10
             img(src="@/assets/curso/tema3/img02.png")
       .col-lg-7.BG09.p-4(data-aos="fade-left")
-        .bloque-texto-b.color-secundario.p-4
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p.text-white.mb-0 La arquitectura de <em>software</em> de un programa o computación sistema, es la estructura o estructuras del sistema que comprenden componentes de <em>software</em>, el externo de las propiedades visibles de esos componentes, y las relaciones entre ellos [sic]<br><br>
-            p.text-white.mb-0 (Garlan, D., s.f.)
-            i.fas.fa-quote-right
+        .fnd-1.m-3
+          p.p-4 La arquitectura del software de un programa o sistema informático, se refiere a la estructura o estructuras del sistema, que se fundamentan en componentes de software; las propiedades de esos componentes son visibles al exterior, y a sus relaciones.
 
-    .h5.mb-5  Existen tres conceptos que tienden a confundirse:
+    .h5.mb-5  Existen tres conceptos que tienden a confundirse: 
 
     .row.justify-content-center.BG12.p-4.mb-5
       .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -50,14 +46,14 @@
           .row.justify-content-center.mb-4
             .col-6
               img(src="@/assets/curso/tema3/img03.png")
-          .h4.text-center Estilo arquitectónico
+          .h4.text-center Estilo arquitectónico 
     
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-lg-10
         .cajon.color-primario.p-4.mb-4
-          p.mb-0 Un estilo arquitectónico, tal como lo hablamos en la comparación con edificios, es el cómo está construido: la forma como está hecho, la manera como se construye. Con respecto a los patrones arquitectónicos un estilo puede tener uno o varios. Entonces, un estilo arquitectónico de #[i software] se refiere a ese conjunto de decisiones para construir ese #[i software] en determinado contexto.
+          p.mb-0 Un estilo arquitectónico, tal como lo hablamos en la comparación con la construcción de edificios, es el cómo está construido, la forma como está hecho, la manera como se construye. Con respecto a los patrones arquitectónicos, un estilo puede tener uno o varios. Entonces, un estilo arquitectónico de <i>software</i>, se refiere a ese conjunto de decisiones para construir ese <i>software</i>, en determinado contexto. 
     
-    .h5.mb-5 Es así que cuando vamos a construir un #[i software] no debemos ir al grano sin antes analizar bien y responder las siguientes preguntas:
+    .h5.mb-5 Es entonces que, cuando vamos a construir un <i>software</i>, no debemos ir al grano sin antes analizar bien y responder las siguientes preguntas:
 
     .row.justify-content-center.BG09.p-4.mb-5
       .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -65,19 +61,19 @@
           .row.justify-content-center.mb-4
             .col-5
               img(src="@/assets/curso/tema3/img04.png")
-          .h4.text-center.mb-0 ¿Qué tipo de #[i software] o aplicación vamos a construir? 
+          .h4.text-center.mb-0 ¿Qué tipo de <i>software</i> o aplicación vamos a construir? 
       .col-lg-4.col-10.mb-lg-0.mb-4(data-aos="flip-up")
         .BGR13.p-4
           .row.justify-content-center.mb-4
             .col-5
               img(src="@/assets/curso/tema3/img04.png")
-          .h4.text-center.mb-0 ¿Para quién la vamos a construir?
+          .h4.text-center.mb-0 ¿Para quién la vamos a construir? 
       .col-lg-4.col-10(data-aos="fade-left")
         .BGR13.p-4
           .row.justify-content-center.mb-4
             .col-5
               img(src="@/assets/curso/tema3/img04.png")
-          .h4.text-center.mb-0 ¿Para cuándo debe estar lista?
+          .h4.text-center.mb-0 ¿Para cuándo debe estar listo?
 
     .bloque-texto-g.img-inv.color-acento-botones.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -126,7 +122,7 @@
           .col-lg-5.col-10.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img08.png")
           .col-lg-5.mb-4
-            p Se cataloga como un estilo arquitectónico; en esta arquitectura están basadas la mayoría de las aplicaciones que usan internet. Como su nombre lo dice, tiene dos componentes: cliente y servidor, además del medio de comunicación entre estos.
+            p Se cataloga como un estilo arquitectónico; la mayoría de las aplicaciones que usan Internet, están basadas en esta arquitectura. Como su nombre lo dice, tiene dos componentes: cliente y servidor, además del medio de comunicación entre estos.
         .row.justify-content-center.mb-4
           .col 
             .bloque-texto-g.color-acento-contenido.tarjeta-blue.p-3.p-sm-4.p-md-5
@@ -138,7 +134,7 @@
                 p.mb-0.text-white En esta arquitectura el cliente y el servidor se comunican entre sí sin ningún punto o nodo intermedio; aunque proporciona un servicio rápido, puede ocasionar agujeros de seguridad y problemas de rendimiento. Ejemplo: Internet Explorer utiliza una arquitectura de servidor de cliente de 2 niveles, 3-<em>tier</em> (3 niveles o capas); en esta, un nodo más ―llamado nivel medio― se encuentra entre el cliente y el servidor. El nivel medio toma la solicitud del cliente, lo autentica, aprueba y luego lo pasa al servidor. También se habla de n-<em>tier</em> (multinivel).
       
       #collapse02.collapse(:class="{show: hash ? hash == 2 : false}" data-bs-parent='#MapaGroup01')
-        .h5 <span style="background-color:#FECB2F; padding: 2px">b.</span>	Arquitectura por capas (#[em Layered])
+        .h5 <span style="background-color:#FECB2F; padding: 2px">b.</span>	Arquitectura por capas <i>(Layered)</i>
         .row.justify-content-center.align-items-end.mb-5
           .col-lg-7.order-lg-1.order-2
             p También es catalogada como un estilo arquitectónico. En ejemplos de arquitectura por capas están el modelo OSI y el modelo TCP/IP, en donde hay una interacción entre los componentes de una misma capa o con las capas adyacentes. Todas trabajan por una tarea en común.
@@ -146,7 +142,7 @@
               p.mb-0 Esta arquitectura agrupa las responsabilidades del #[i software] en varias capas débilmente acopladas. Las capas pueden comunicarse entre sí a través de interfaces bien definidas. Dado que las capas están débilmente acopladas, pueden residir en una sola computadora o pueden estar distribuidas en varios ordenadores. 
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema3/img10.jpg")
-        .h5 Por lo general un sistema de #[i software] se divide en tres capas:
+        .h5 Por lo general un sistema de <i>software</i> se divide en tres capas:
         .row.justify-content-center.mb-4
           .col-lg-10
             ImagenInfografica.color-secundario

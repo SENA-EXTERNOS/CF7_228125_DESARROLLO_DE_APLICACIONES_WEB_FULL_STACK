@@ -2,9 +2,9 @@ export default {
   global: {
     componenteFormativo: 'Selección de la arquitectura de <em>software</em>',
     descripcionCurso:
-      'En el presente componente formativo se estudiarán diferentes conceptos como <em>networking</em>, modelos de arquitectura, lenguajes de programación, servidores <em>web</em>, protocolos de comunicación, entre otros, los cuales le brindarán las bases para su trabajo como <em>desarrollador full stack</em>.',
+      'En el presente componente formativo, se estudiarán diferentes conceptos como <i>networking</i>, modelos de arquitectura, lenguajes de programación, servidores web, protocolos de comunicación, entre otros, los cuales le brindarán bases para ayudarlo en su trabajo como desarrollador <i>full stack.</i>',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal-.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -127,16 +127,30 @@ export default {
   },
   complementario: [
     {
+      tema: 'Modelos de arquitectura',
+      referencia:
+        'hdeleon.net. (2020). <i>Modelo de Arquitectura de Software C4 – Ejemplo práctico sencillo</i> (video). YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=2IJ29e0xTDc',
+    },
+    {
+      tema: 'Lenguajes de programación y stack tecnológico',
+      referencia:
+        'nicobytes. (2020). ¿Cuál es el mejor stack tecnológico para una aplicación? (video). YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=16CauMlYygs',
+    },
+    {
       tema: 'Gestor de base de datos y servidores',
       referencia:
-        'Castro Romero, A., González Sanabria, J. S. & Callejas Cuervo, M. (2012). Utilidad y funcionamiento de las bases de datos NoSQL. Revista Facultad de Ingeniería, 21(33). p. 21-32',
+        'Castro Romero, A., González Sanabria, J. S. & Callejas Cuervo, M. (2012). Utilidad y funcionamiento de las bases de datos NoSQL. <i>Revista Facultad de Ingeniería</i>, 21(33), p. 21-32',
       tipo: 'PDF',
       link: 'https://www.redalyc.org/articulo.oa?id=413940772003',
     },
     {
       tema: 'Gestor de base de datos y servidores',
       referencia:
-        'Moreno, L., Olsowy, V., Thomas, P., Delia, L., Tesone, F., Fernández, J. & Pesado, P. (2019). Un estudio comparativo de bases de datos relaciónales y bases de datos NoSQL.',
+        'Moreno, L., Olsowy, V., Thomas, P., Delia, L., Tesone, F., Fernández, J. & Pesado, P. (2019).<i> Un estudio comparativo de bases de datos relaciónales y bases de datos NoSQL.</i>',
       tipo: 'PDF',
       link: 'http://sedici.unlp.edu.ar/handle/10915/91403',
     },
@@ -150,7 +164,7 @@ export default {
     {
       termino: 'Lenguaje de programación',
       significado:
-        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la <em>web</em>, móviles, dispositivos embebidos.',
+        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos.',
     },
     {
       termino: 'Medios de comunicación',
@@ -189,7 +203,7 @@ export default {
         'http://www.cs.cmu.edu/afs/cs.cmu.edu/project/able/ftp/encycSE2001/encyclopedia-dist.pdf',
     },
     {
-      referencia: 'GNU. 2022. Recuperado de',
+      referencia: 'GNU. 2022. <i>GNU</i>.',
       link: 'https://www.gnu.org/home.es.html',
     },
     {

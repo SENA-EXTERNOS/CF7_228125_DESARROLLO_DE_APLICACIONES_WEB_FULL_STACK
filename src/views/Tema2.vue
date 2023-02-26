@@ -9,7 +9,9 @@
     
     .row.justify-content-center.mb-5
       .col-lg-7.BG10.p-5.order-lg-1.order-2.mx-0(data-aos="fade-right")
-        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un #[i software] especial que “controla” el #[i #[b hardware]], el cual es aquella parte de un “sistema de cómputo” que se puede tocar: monitor, teclado, #[i mouse] o ratón, CPU, memoria RAM; incluso, los mismos dispositivos de red. #[i Software] es aquello que no se puede tocar, por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación #[em web], una aplicación de escritorio. 
+        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un software especial que “controla” el <b><i>hardware</i></b>; la parte física de un “sistema de cómputo” es lo que se llama <i>hardware</i>, o sea el monitor, teclado, mouse o ratón, CPU, entre otros. <i>Software</i> se refiere a lo que no es físico; por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación web, una aplicación de escritorio.
+        p.text-white.mb-0 En el siguiente esquema se puede observar un resumen de las principales capas de un SO:
+
       .col-lg-5.col-10.BG11.p-4.order-lg-2.order-1.mb-lg-0.mb-4.mx-0(data-aos="fade-left")
         .row.justify-content-center
           .col-9
@@ -19,8 +21,9 @@
 
     .BGM22.p-4
       .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Figura 4.
-        span  Principales capas de un SO
+        h5 Figura 4
+        p.mb-0
+          em  Principales capas de un SO
       
       .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-8
@@ -56,7 +59,7 @@
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img04.png")
           .col-md-6
-            p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y usadas en el mercado actualmente se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente cada año se publica una versión, y su nombre está ligado con el año de distribución, por ejemplo: Windows Server 2012. Las versiones de Windows Server son de pago.
+            p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y utilzadas en el mercado actual, se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente, cada año se publica una versión, y su nombre está ligado con el año de distribución como, por ejemplo, Windows Server 2012. Las versiones de Windows Server son de pago.
       .BG05.p-3.p-md-4(titulo="GNU/Linux")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4
@@ -72,8 +75,9 @@
             p.mb-0 Son los menos usados en el mercado para propósito de servidores.
             
     .cajon-b.color-acento-botones.p-3.mb-5(data-aos="fade-right")
-      p El sistema operativo puede manipular los componentes de un equipo de cómputo, como: administración de recursos, acceso a dispositivos de entrada y salida, servidor la interfaz entre sistema y usuario. 
-      p A su vez un SO está conformado por varios programas, y sus componentes principales son la gestión de procesos, entradas y salidas, memoria, sistema de archivos.
+      p El sistema operativo puede manipular los componentes de un equipo de cómputo, como: la administración de recursos, el acceso a dispositivos de entrada y salida, el servidor de la interfaz de usuario.
+      p Al mismo tiempo, el SO está conformado por varios programas, y sus componentes principales son: la gestión de procesos, entradas y salidas, memorias, sistema de archivos.
+
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
@@ -81,7 +85,7 @@
       .col-lg-8(data-aos="fade-left")
         .bloque-texto-b.color-acento-contenido.p-4
           .bloque-texto-b__texto
-            p.mb-0 Una vez se tiene el sistema operativo instalado en un dispositivo, al <em>hardware</em> en particular o un <em>software</em> especial para que pueda ser manipulado; es lo que se llama <em><b>drivers</b></em>. Muchas veces se conecta algún periférico: impresora, cámara, lector de huella, etc., pero el computador no es capaz de reconocerlos, surge entonces la necesidad de instalar dichos <em>drivers</em> o controladores para que se puedan realizar los trabajos con este periférico de manera adecuada. Los sistemas operativos modernos ya poseen la mayoría de los <em>drivers</em> para los dispositivos periféricos comunes comerciales, simplemente se conecta y, de manera casi inmediata, es reconocido.
+            p.mb-0 Una vez se tiene el sistema operativo instalado en un dispositivo (<i>Hardware</i>), se hace uso de un manejador o controlador de dispositivo que se conoce como <b>driver</b>, el cual es un elemento <i>software</i> que se utiliza en diferentes sistemas operativos. Cuando se conecta al dispositivo algún periférico como impresora, cámara, lector de huella, etc., y el computador no es capaz de reconocerlo, surge entonces la necesidad de instalar estos <i>drivers</i> o controladores para que se puedan comunicar y realizar los trabajos con este periférico, de manera adecuada. Los sistemas operativos modernos ya poseen la mayoría de los <i>drivers</i> para los dispositivos periféricos comerciales más comunes, simplemente se conecta y, de manera casi inmediata, es reconocido.
 
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -95,11 +99,11 @@
       .col-lg-6.order-md-1.order-2(data-aos="fade-right")
         AcordionA(tipo="b" clase-tarjeta="BGR08")
           div(titulo="Memoria RAM")
-            p Es un dispositivo de #[em hardware], normalmente en forma de tarjetas modulares que se insertan en la placa base o #[i Motherboard]. Se encarga del almacenamiento e intercambio de información de manera temporal. Mientras trabaja con su equipo de cómputo estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en #[em bytes] y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información hasta 5 200 MHz, tanto para computadores personales como para servidores.
+            p Es un dispositivo de #[em hardware], normalmente en forma de tarjetas modulares que se insertan en la placa base o #[i Motherboard]. Se encarga del almacenamiento e intercambio de información, de manera temporal. Mientras se trabaja con el equipo de cómputo, estos datos son volátiles y suelen borrarse cuando se apaga la computadora. Tiene capacidades de almacenamiento en #[em bytes] y las memorias modernas vienen con capacidades hasta de 128 GB y 256 GB, con frecuencia de intercambio de información, hasta 5200 MHz, tanto para computadores personales como para servidores.
           div(titulo="CPU")
             p Es la unidad de almacenamiento central o procesador, llamado muchas veces como el “cerebro” de la computadora porque es el que lleva a cabo las principales funciones de gestión y cálculos que se realizan en esta.        
           div(titulo="Disco duro o rígido")
-            p Es donde se almacenan y persisten los archivos de la computadora o servidor, incluso en él se instalan el sistema operativo y otro tipo de información importante. Aún existen los discos duros de lectura convencionales de plato, discos duros de estado sólido y discos M2.
+            p Es un dispositivo donde se almacenan y persisten los archivos de la computadora o servidor; en él se instalan el sistema operativo y otras informaciones importantes. Aún existen los discos duros de lectura convencionales, de plato, discos duros de estado sólido y discos M2.
           div(titulo="Tarjeta de red")
             p Es necesaria para la comunicación por cable, o inalámbrica, entre una o más estaciones de trabajo.
       .col-lg-6.col-10.order-md-2.order-1.mb-md-0.mb-4(data-aos="fade-left")
@@ -118,7 +122,7 @@
         .col-lg-4.mb-lg-0.mb-4(data-aos="fade-right")
           figure.mb-4
             img(src="@/assets/curso/tema2/img10.png")
-          .h5.text-white.text-center Amazon (Amazon #[em Web Service])
+          .h5.text-white.text-center Amazon (#[em Amazon Web Service])
         .col-lg-4.mb-lg-0.mb-4(data-aos="flip-up")
           figure.mb-4
             img(src="@/assets/curso/tema2/img11.png")

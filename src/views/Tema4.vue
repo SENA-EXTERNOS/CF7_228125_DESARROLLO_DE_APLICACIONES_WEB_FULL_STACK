@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img01.jpg')})`}"
       )(data-aos="fade-right")
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
-        p Un lenguaje de programación es aquel lenguaje computacional que sirve para crear #[i software] en general, sean programas de consola, de escritorio, orientados a la <em>web</em>, móviles, dispositivos embebidos; incluso, con un lenguaje de programación se pueden crear otros lenguajes de programación. La creación de este #[i software] se realiza mediante algoritmos o instrucciones dadas, propias de cada  lenguaje (sintaxis) y una lógica.
+        p Un lenguaje de programación, es aquel lenguaje computacional que sirve para crear <i>software</i> en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos; incluso, con un lenguaje de programación, se pueden crear otros lenguajes de programación. La creación de este <i>software</i> se realiza mediante algoritmos o instrucciones dadas, propias de cada lenguaje (sintaxis) y una lógica.
 
     .cajon-b.color-acento-botones.p-3.mb-5(data-aos="fade-right")
       p Según su ejecución se pueden encontrar tres clases de lenguaje de programación: compilados, interpretados e híbridos (compilados e interpretados). Algunos autores solo consideran los compilados e interpretados.
@@ -72,7 +72,7 @@
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         .cajon-b.color-acento-botones.p-3.mb-5
           p Uno de los más populares es Python, y una de las razones principales de su popularidad es el crecimiento de la ciencia de datos en los últimos años; otras razones: la simplicidad, conjunto de librerías para distintos propósitos y facilidad de programación.
-          p.mb-0 En la industria a nivel mundial se trabaja mucho con Java y Javascript, pero se trabaja fuertemente usando librerías y marcos de trabajo (#[em frameworks]), temas que se tomarán más adelante. PHP sigue siendo popular porque la mayoría de las páginas y aplicaciones <em>web</em> se crearon en este lenguaje y aún se siguen creando páginas con gestores de contenido como Wordpress, Joomla, Drupal, entre otros.
+          p.mb-0 A nivel mundial, en la industria se trabaja mucho con Java y Javascript, pero se labora fuertemente, usando librerías y marcos de trabajo (<i>frameworks</i>), temas que se tomarán más adelante. PHP sigue siendo popular porque la mayoría de las páginas y aplicaciones web, se crearon en este lenguaje y aún se siguen creando páginas con gestores de contenido como Wordpress, Joomla, Drupal, entre otros.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img09.png")
     
@@ -82,13 +82,14 @@
       .col-lg-7(data-aos="fade-left")
         .bloque-texto-b.color-acento-contenido.p-4
           .bloque-texto-b__texto
-            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el #[em hardware] y el crecimiento del internet de las cosas: el desarrollo de videojuegos.<br><br>
+            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el hardware y el crecimiento del Internet de las cosas, donde se puede resaltar el desarrollo de videojuegos.<br><br>
             p Existen otros lenguajes de programación tales como Ruby, Dart, Kotlin, Swift, C, TypeScript, Go, Rust, SQL (para bases de datos relacionales), Scala, R, Perl, Shell Script, etc.<br><br>
             p.mb-0 En la siguiente tabla encontrará una lista de algunos lenguajes de programación y su uso, propósito o plataformas en las que puede construir <em>software</em> con ellos.
 
     .titulo-sexto.color-acento-botones(data-aos="fade-right")
-      h5 Tabla 2.
-      span Lenguajes de programación
+      h5 Tabla 2
+      p.mb-0
+        em Lenguajes de programación
     
     table.mb-5(data-aos="zoom-in")
       tr
@@ -167,8 +168,9 @@
     .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2
         .cajon-b.color-acento-botones.p-3.mb-5(data-aos="fade-right")
-          p #[i Stack], en español, traduce pila. Entonces, se puede mirar un #[i stack] tecnológico como una pila de tecnologías y cómo ellas se mezclan en conjunto como una sola para construir aplicaciones, según las necesidades que se tengan.
-          p.mb-0 Antes de mencionar algunas miraremos qué son un #[i framework] (marco de trabajo) y una librería, para que pueda establecer la diferencia con un lenguaje de programación; estos tres términos suelen confundirse muy comúnmente cuando se está iniciando en este mundo. Existe un término más, “entorno de ejecución”, el cual es relativo y no tiene una definición exacta.
+          p #[i Stack], en español, traduce pila. Entonces, se puede mirar un stack tecnológico como una pila de tecnologías y cómo ellas se entremezclan como una sola, para construir aplicaciones, según las necesidades que se presenten.
+          p.mb-0 Antes de mencionar algunas, veremos qué es un <i>framework</i> (marco de trabajo), y qué es una librería, para poder establecer la diferencia con un lenguaje de programación; estos términos suelen confundirse, muy comúnmente, cuando se está iniciando en este mundo de la tecnología. Existe un término más, “entorno de ejecución”, el cual es relativo y no tiene una definición exacta.
+
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema4/img11.png")
 
