@@ -154,7 +154,7 @@
           .col-lg-6.order-lg-1.order-2
             .h5 Servidores web
             p Es un <i>software</i> especial para el procesamiento de peticiones en doble dirección, cuando un cliente le solicita. También se le llama servidores HTTP, servidores que deben contar con un <i>hardware</i>. Hoy en día se habla de servidores web en la nube, pero al final, estos también necesitan un <i>hardware</i> para funcionar.
-            p En este tipo de servidores, normalmente se alojan las páginas web que se consultan día a día, lo mismo que aplicaciones de compra, plataformas streaming, de música, etc., a las cuales se accede mediante el navegador.
+            p En este tipo de servidores, normalmente se alojan las páginas web que se consultan día a día, lo mismo que aplicaciones de compra, plataformas <i>streaming</i>, de música, etc., a las cuales se accede mediante el navegador.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema5/img14.png")
         .row.justify-content-center
@@ -179,7 +179,7 @@
       .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Anteriormente, se hablaba de “sistemas operativos para red”, los cuales se instalan en servidores físicos utilizados para distintos propósitos, entre ellos el de “servir” para la comunicación web. Se podría afirmar que, al referirnos a un servidor web se está hablando de un servidor físico con un sistema operativo especial para red, o un <i>software</i> como servidor, el cual se menciona a continuación: <br><br>
     
-    p Pero antes de hacer mención, veamos qué diferencia hay entre un servidor web y un contenedor de aplicaciones. Un contenedor de aplicaciones, es un software que puede alojarse dentro de un servidor web.
+    p Pero antes de hacer mención, veamos qué diferencia hay entre un servidor web y un contenedor de aplicaciones. Un contenedor de aplicaciones, es un <i>software</i> que puede alojarse dentro de un servidor web.
 
     .row.justify-content-end.mb-4(data-aos="flip-up")
       .col-lg-8.col-10

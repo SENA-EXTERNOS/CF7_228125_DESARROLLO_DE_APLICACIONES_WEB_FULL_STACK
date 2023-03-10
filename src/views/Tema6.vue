@@ -15,7 +15,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4.p-4(data-aos="fade-down-right")
         img(src="@/assets/curso/tema6/img01.png")
     
-    p ““El servicio TCP se obtiene al hacer que tanto el servidor como el cliente creen puntos terminales, llamados <i>sockets</i>. Cada<i> socket</i> tiene un número (dirección), que consiste en la dirección IP del <i>host</i>, y un número de 16 bits, que es local a ese <i>host</i>, llamado <b>puerto</b> [sic]”. ”. (Hernández, G., s.f.)
+    p “El servicio TCP se obtiene al hacer que tanto el servidor como el cliente creen puntos terminales, llamados <i>sockets</i>. Cada<i> socket</i> tiene un número (dirección), que consiste en la dirección IP del <i>host</i>, y un número de 16 bits, que es local a ese <i>host</i>, llamado <b>puerto</b> [sic] ”. (Hernández, G., s.f.)
 
     .h5.mb-5 Algunos tipos de puertos son:  
 
@@ -62,7 +62,7 @@
           div(titulo="XMPP (<i>Extensible Messaging and Presence Protocol</i>)")
             p.mb-0 Estándar abierto para mensajería y presencia.
           div(titulo="SMTP (<i>Simple Mail Transfer Protocol</i>)")
-            p.mb-0 En Internet, el correo electrónico se entrega al hacer que la máquina de origen, establezca una conexión TCP con el puerto 25 de la máquina de destino. Escuchando en este puerto se encuentra un demonio de correo electrónico que habla con el SMTP (Protocolo Simple de Transporte de Correo); este demonio acepta conexiones de entrada y copia mensajes de ellas a los buzones adecuados. Si no puede entregarse un mensaje, se devuelve al remitente un informe de error, que contiene la primera parte del mensaje que no fue posible de entregar.
+            p.mb-0 En Internet, el correo electrónico se entrega al hacer que la máquina de origen, establezca una conexión TCP con el puerto 25 de la máquina de destino. Escuchando en este puerto se encuentra un demonio de correo electrónico que habla con el SMTP (Protocolo Simple de Transporte de Correo); este dominio acepta conexiones de entrada y copia mensajes de ellas a los buzones adecuados. Si no puede entregarse un mensaje, se devuelve al remitente un informe de error, que contiene la primera parte del mensaje que no fue posible de entregar.
 
     .h5.mb-5 Para ampliar la información consulte los siguientes enlaces:
 

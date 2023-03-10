@@ -134,9 +134,9 @@ export default {
       link: 'https://www.youtube.com/watch?v=2IJ29e0xTDc',
     },
     {
-      tema: 'Lenguajes de programación y stack tecnológico',
+      tema: 'Lenguajes de programación y <i>stack</i> tecnológico',
       referencia:
-        'nicobytes. (2020). ¿Cuál es el mejor stack tecnológico para una aplicación? (video). YouTube.',
+        'nicobytes. (2020). <i>¿Cuál es el mejor stack tecnológico para una aplicación?</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=16CauMlYygs',
     },
@@ -164,7 +164,7 @@ export default {
     {
       termino: 'Lenguaje de programación',
       significado:
-        'es aquel lenguaje computacional que sirve para crear software en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos.',
+        'es aquel lenguaje computacional que sirve para crear <i>software</i> en general, sean programas de consola, de escritorio, orientados a la web, móviles, dispositivos embebidos.',
     },
     {
       termino: 'Medios de comunicación',
@@ -179,7 +179,7 @@ export default {
     {
       termino: 'Patrón de diseño',
       significado:
-        'soluciones habituales a problemas comunes en el diseño de software. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de un código. (<a href="https://refactoring.guru/es/design-patterns" target="_blank">https://refactoring.guru/es/design-patterns</a>)',
+        'soluciones habituales a problemas comunes en el diseño de <i>software</i>. Cada patrón es como un plano que se puede personalizar para resolver un problema de diseño particular de un código. (<a href="https://refactoring.guru/es/design-patterns" target="_blank">https://refactoring.guru/es/design-patterns</a>)',
     },
     {
       termino: 'Servicios',
@@ -194,7 +194,7 @@ export default {
   referencias: [
     {
       referencia:
-        '<em>Developer</em> Mozilla. (s.f.). Códigos de estado de respuesta HTTP.',
+        '<em>Developer</em> Mozilla. (s.f.). <i>Códigos de estado de respuesta HTTP.</i>',
       link: 'https://developer.mozilla.org/es/docs/Web/HTTP/Status',
     },
     {
@@ -208,7 +208,7 @@ export default {
     },
     {
       referencia:
-        'Hernández, G. (s.f.). Protocolo de control de transferencia (TCP). Universidad Autónoma del Estado de Hidalgo.',
+        'Hernández, G. (s.f.). <i>Protocolo de control de transferencia (TCP)</i>. Universidad Autónoma del Estado de Hidalgo.',
       link: 'https://www.uaeh.edu.mx/scige/boletin/huejutla/n3/r1.html#refe1 ',
     },
   ],

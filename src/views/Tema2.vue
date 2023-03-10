@@ -9,7 +9,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-7.BG10.p-5.order-lg-1.order-2.mx-0(data-aos="fade-right")
-        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un software especial que “controla” el <b><i>hardware</i></b>; la parte física de un “sistema de cómputo” es lo que se llama <i>hardware</i>, o sea el monitor, teclado, mouse o ratón, CPU, entre otros. <i>Software</i> se refiere a lo que no es físico; por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación web, una aplicación de escritorio.
+        p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un <i>software</i> especial que “controla” el <b><i>hardware</i></b>; la parte física de un “sistema de cómputo” es lo que se llama <i>hardware</i>, o sea el monitor, teclado, mouse o ratón, CPU, entre otros. <i>Software</i> se refiere a lo que no es físico; por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación web, una aplicación de escritorio.
         p.text-white.mb-0 En el siguiente esquema se puede observar un resumen de las principales capas de un SO:
 
       .col-lg-5.col-10.BG11.p-4.order-lg-2.order-1.mb-lg-0.mb-4.mx-0(data-aos="fade-left")
@@ -59,7 +59,7 @@
           .col-md-4.col-8.mb-md-0.mb-4
             img(src="@/assets/curso/tema2/img04.png")
           .col-md-6
-            p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y utilzadas en el mercado actual, se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente, cada año se publica una versión, y su nombre está ligado con el año de distribución como, por ejemplo, Windows Server 2012. Las versiones de Windows Server son de pago.
+            p.mb-0 Propiedad de la compañía Microsoft Corporation. Entre las distribuciones y versiones más conocidas y utilizadas en el mercado actual, se encuentra Microsoft Windows Server, que surgió a partir del año 2003; normalmente, cada año se publica una versión, y su nombre está ligado con el año de distribución como, por ejemplo, Windows Server 2012. Las versiones de Windows Server son de pago.
       .BG05.p-3.p-md-4(titulo="GNU/Linux")
         .row.justify-content-center.align-items-center
           .col-md-4.col-8.mb-md-0.mb-4

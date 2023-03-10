@@ -7,7 +7,7 @@
         span 3
       h1 Modelos de arquitectura
     
-    p La mayoría de los conceptos e ideas de <b>arquitectura de software</b>, provienen de arquitectura de edificios. Quizá no somos arquitectos, pero tenemos la idea que, un arquitecto, antes de llevar a cabo sus proyectos, diseña los planos de sus casas o edificios y presenta sus <b>estilos arquitectónicos</b>; presenta unos tiempos y unos materiales necesarios para la construcción.
+    p La mayoría de los conceptos e ideas de <b>arquitectura de <i>software</i></b>, provienen de arquitectura de edificios. Quizá no somos arquitectos, pero tenemos la idea que, un arquitecto, antes de llevar a cabo sus proyectos, diseña los planos de sus casas o edificios y presenta sus <b>estilos arquitectónicos</b>; presenta unos tiempos y unos materiales necesarios para la construcción.
 
     .row.justify-content-center.mb-4
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
@@ -24,7 +24,7 @@
             img(src="@/assets/curso/tema3/img02.png")
       .col-lg-7.BG09.p-4(data-aos="fade-left")
         .fnd-1.m-3
-          p.p-4 La arquitectura del software de un programa o sistema informático, se refiere a la estructura o estructuras del sistema, que se fundamentan en componentes de software; las propiedades de esos componentes son visibles al exterior, y a sus relaciones.
+          p.p-4 La arquitectura del <i>software</i> de un programa o sistema informático, se refiere a la estructura o estructuras del sistema, que se fundamentan en componentes de <i>software</i>; las propiedades de esos componentes son visibles al exterior, y a sus relaciones.
 
     .h5.mb-5  Existen tres conceptos que tienden a confundirse: 
 
@@ -95,7 +95,8 @@
         .row.justify-content-center
           .col-7
             img(src="@/assets/curso/tema3/img06.png")
-      
+    
+    p.mb-5 Los estilos arquitectónicos se seleccionan dependiendo del tipo de aplicación a construir. Pueden ser:  
     a(@click="mostrarColaps()")  
     #MapaGroup01.mb-5(data-aos="zoom-in")
       .row.justify-content-center.BGM14.p-md-5.p-4.mb-5

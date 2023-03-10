@@ -41,8 +41,6 @@
       .h5.mb-5 ¿Cómo funciona el proceso de compilación?
       .row.justify-content-center.mb-5
         .col-lg-10
-          figure.mb-5(data-aos="fade-left")
-            img(src="@/assets/curso/tema4/img04.png")
           PasosA.color-primario(tipo="n")
             .row.justify-content-center.align-items-center
               .col-lg-8.order-lg-1.order-2
@@ -82,7 +80,7 @@
       .col-lg-7(data-aos="fade-left")
         .bloque-texto-b.color-acento-contenido.p-4
           .bloque-texto-b__texto
-            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el hardware y el crecimiento del Internet de las cosas, donde se puede resaltar el desarrollo de videojuegos.<br><br>
+            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el <i>hardware</i> y el crecimiento del Internet de las cosas, donde se puede resaltar el desarrollo de videojuegos.<br><br>
             p Existen otros lenguajes de programación tales como Ruby, Dart, Kotlin, Swift, C, TypeScript, Go, Rust, SQL (para bases de datos relacionales), Scala, R, Perl, Shell Script, etc.<br><br>
             p.mb-0 En la siguiente tabla encontrará una lista de algunos lenguajes de programación y su uso, propósito o plataformas en las que puede construir <em>software</em> con ellos.
 
@@ -168,7 +166,7 @@
     .row.justify-content-center.mb-4
       .col-lg-7.order-lg-1.order-2
         .cajon-b.color-acento-botones.p-3.mb-5(data-aos="fade-right")
-          p #[i Stack], en español, traduce pila. Entonces, se puede mirar un stack tecnológico como una pila de tecnologías y cómo ellas se entremezclan como una sola, para construir aplicaciones, según las necesidades que se presenten.
+          p #[i Stack], en español, traduce pila. Entonces, se puede mirar un <i>tecnológico</i> como una pila de tecnologías y cómo ellas se entremezclan como una sola, para construir aplicaciones, según las necesidades que se presenten.
           p.mb-0 Antes de mencionar algunas, veremos qué es un <i>framework</i> (marco de trabajo), y qué es una librería, para poder establecer la diferencia con un lenguaje de programación; estos términos suelen confundirse, muy comúnmente, cuando se está iniciando en este mundo de la tecnología. Existe un término más, “entorno de ejecución”, el cual es relativo y no tiene una definición exacta.
 
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")

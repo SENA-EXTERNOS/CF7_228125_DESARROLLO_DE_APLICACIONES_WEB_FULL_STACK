@@ -179,7 +179,7 @@
 
           .BGR04.p-4(titulo="El modelo <br>TCP/IP")
             h4 El modelo TCP/IP
-            p Es un modelo de referencia utilizado en  #[strong ARPANET] y en el #[strong internet]. 
+            p Es un modelo de referencia utilizado en  #[strong ARPANET] y en el #[strong Internet]. 
             p Puede encontrar información sobre ARPANET en la página web oficial de <a href="https://developer.mozilla.org/es/docs/Glossary/Arpanet" target="_blank"><b>Mozilla</b></a>.   
       .col-lg-5.col-10.order-lg-2.order-1.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema1/img11.png")
