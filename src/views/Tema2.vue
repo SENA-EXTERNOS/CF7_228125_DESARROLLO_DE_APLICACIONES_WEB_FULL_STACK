@@ -27,7 +27,7 @@
       
       .row.justify-content-center.mb-5(data-aos="zoom-in")
         .col-lg-8
-          img(src="@/assets/curso/tema2/img02.svg")
+          img(src="@/assets/curso/tema2/img02-.svg")
 
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")

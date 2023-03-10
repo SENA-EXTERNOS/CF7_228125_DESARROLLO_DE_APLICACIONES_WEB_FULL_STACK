@@ -98,7 +98,7 @@
       
       .row.justify-content-center(data-aos="zoom-in")
         .col-lg-10
-          img(src="@/assets/curso/tema1/img05.svg")
+          img(src="@/assets/curso/tema1/img05-.svg")
     
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")
