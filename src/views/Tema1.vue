@@ -116,7 +116,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema1/img07.jpg')})`}"
         )(data-aos="fade-right")
         .bloque-texto-g__texto.p-4(data-aos="fade-left")
-          p En la actualidad, basta con accesar a un navegador web (Chrome, Mozilla, Safari, etc.), ingresar la dirección de una página web y allí poder realizar un sinfín de operaciones: compras, apuestas, gestionar un negocio, ver películas.<br><br>
+          p En la actualidad, basta con acceder a un navegador web (Chrome, Mozilla, Safari, etc.), ingresar la dirección de una página web y allí poder realizar un sinfín de operaciones: compras, apuestas, gestionar un negocio, ver películas.<br><br>
           p Uno de sus objetivos como desarrollador web<i> full stack</i>, es que pueda construir aplicaciones, mediante las que se realicen tareas como estas, y más.
       
       .row.justify-content-center.mb-5.mt-5(data-aos="flip-up")

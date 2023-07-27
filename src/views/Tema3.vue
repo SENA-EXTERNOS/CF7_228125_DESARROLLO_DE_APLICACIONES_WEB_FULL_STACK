@@ -101,7 +101,6 @@
     #MapaGroup01.mb-5(data-aos="zoom-in")
       .row.justify-content-center.BGM14.p-md-5.p-4.mb-5
         .col-4.col-md-2.mb-lg-0.mb-3(v-for="num of 5")
-          .indicador--hover(v-if="indicadorImagenZoom")
           button.ClaseBtn.collapsed(
             :id="`boton${num}`"
             data-bs-toggle="collapse" 

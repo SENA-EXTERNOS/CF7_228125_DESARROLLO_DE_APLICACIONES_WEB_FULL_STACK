@@ -2270,7 +2270,7 @@ div
       .tarjeta.color-primario.text-center.p-3(data-aos="zoom-in-right")
         h3.mb-0 zoom-in-right
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-      .tarjeta.color-secundario.text-center.p-3(data-aos="zoom-out")
+      .tarjeta.color-secundario.text-center.p-3
         h3.mb-0 zoom-out
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
       .tarjeta.color-acento-contenido.text-center.p-3(data-aos="zoom-out-up")
@@ -2279,7 +2279,7 @@ div
       .tarjeta.color-acento-botones.text-center.p-3(data-aos="zoom-out-down")
         h3.mb-0 zoom-out-down
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
-      .tarjeta.color-primario.text-center.p-3(data-aos="zoom-out-left")
+      .tarjeta.color-primario.text-center.p-3
         h3.mb-0 zoom-out-left
     .col-sm-6.col-md-4.col-lg-3.col-xxl-2.mb-3
       .tarjeta.color-secundario.text-center.p-3(data-aos="zoom-out-right")

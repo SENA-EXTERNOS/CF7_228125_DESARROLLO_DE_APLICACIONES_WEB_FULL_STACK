@@ -20,7 +20,7 @@
     .h5.mb-5 Algunos tipos de puertos son:  
 
     .row.justify-content-center.mb-4
-      .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="zoom-out-left")
+      .col-lg-6.col-10.mb-lg-0.mb-4
         img(src="@/assets/curso/tema6/img02.png")
       .col-lg-6
         AcordionA.mb-5(tipo="a" clase-tarjeta="BGR17")
@@ -89,7 +89,7 @@
           .h5.mb-0 Instalación herramientas de trabajo
       p Para empezar a desarrollar aplicaciones web, o de otro tipo, es necesario contar con la configuración de un ambiente de desarrollo a nivel de producción o local, y es importante contar con las distintas herramientas que se han mencionado en el presente componente formativo.
       p En el siguiente video se explicará cómo realizar la instalación de algunas de estas herramientas recomendadas de trabajo.
-      figure(data-aos="zoom-out")
+      figure
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/V-VEWoc-8c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 

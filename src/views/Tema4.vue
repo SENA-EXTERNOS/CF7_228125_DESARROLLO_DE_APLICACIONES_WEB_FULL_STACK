@@ -80,7 +80,7 @@
       .col-lg-7(data-aos="fade-left")
         .bloque-texto-b.color-acento-contenido.p-4
           .bloque-texto-b__texto
-            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el <i>hardware</i> y el crecimiento del Internet de las cosas, donde se puede resaltar el desarrollo de videojuegos.<br><br>
+            p Otro lenguaje de programación que ha tomado fuerza en los últimos años es C y C++. Se puede afirmar que ha sido por su eficiencia con el <em>hardware</em> y el crecimiento del Internet de las cosas, donde se puede resaltar el desarrollo de videojuegos.<br><br>
             p Existen otros lenguajes de programación tales como Ruby, Dart, Kotlin, Swift, C, TypeScript, Go, Rust, SQL (para bases de datos relacionales), Scala, R, Perl, Shell Script, etc.<br><br>
             p.mb-0 En la siguiente tabla encontrará una lista de algunos lenguajes de programación y su uso, propósito o plataformas en las que puede construir <em>software</em> con ellos.
 
