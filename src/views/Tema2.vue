@@ -10,7 +10,6 @@
     .row.justify-content-center.mb-5
       .col-lg-7.BG10.p-5.order-lg-1.order-2.mx-0(data-aos="fade-right")
         p.text-white.mb-0 Un sistema operativo (SO), en términos generales, es un <i>software</i> especial que “controla” el <b><i>hardware</i></b>; la parte física de un “sistema de cómputo” es lo que se llama <i>hardware</i>, o sea el monitor, teclado, mouse o ratón, CPU, entre otros. <i>Software</i> se refiere a lo que no es físico; por ejemplo, el paquete ofimático de Office, LibreOffice, un videojuego, una aplicación web, una aplicación de escritorio.
-        p.text-white.mb-0 En el siguiente esquema se puede observar un resumen de las principales capas de un SO:
 
       .col-lg-5.col-10.BG11.p-4.order-lg-2.order-1.mb-lg-0.mb-4.mx-0(data-aos="fade-left")
         .row.justify-content-center
@@ -19,15 +18,15 @@
     
     .h5.mb-5 En el siguiente esquema se puede observar un resumen de las principales capas de un SO:
 
-    .BGM22.p-4
-      .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-        h5 Figura 4
-        p.mb-0
-          em  Principales capas de un SO
-      
-      .row.justify-content-center.mb-5(data-aos="zoom-in")
-        .col-lg-8
-          img(src="@/assets/curso/tema2/img02-.svg")
+
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      h5 Figura 4
+      p.mb-0
+        em  Principales capas de un SO
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-8
+        img(src="@/assets/curso/tema2/fig4.svg")
+
 
     separador
     #parrafos.titulo-segundo.color-acento-contenido(data-aos="fade-right")

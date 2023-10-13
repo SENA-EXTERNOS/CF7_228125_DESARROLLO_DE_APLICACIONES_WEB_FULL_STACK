@@ -21,9 +21,9 @@
 
     .BG01.p-4.mb-5
       LineaTiempoC.color-primario(text-small)
-        .row(titulo="Dispositivos de red")
-          .col-md-4.col-8.mb-md-0.mb-4
-            img(src="@/assets/curso/tema1/img02.png")
+        .row.justify-content-center(titulo="Dispositivos de red")
+          .col-md-5.col-8.mb-md-0.mb-4
+            img(src="@/assets/curso/tema1/img02.svg")
           .col-md-6
             p Se refiere a las terminales de trabajo como servidores, computadoras convencionales, tabletas, móviles, teléfonos IP, etc.; al igual que aparatos que logran conexión con estos, como: #[i routers, switches, hubs, firewalls], etc.
             .row
@@ -48,7 +48,7 @@
     ModalA(:abrir-modal.sync="modal1")
       .row.justify-content-center
         .col-lg-10
-          img(src="@/assets/curso/tema1/img02.png")
+          img(src="@/assets/curso/tema1/img02.svg")
         
     p Ahora, en los medios de comunicación, es importante tener en cuenta la velocidad y la frecuencia de la conexión con cables UTP, las cuales dependen de algunas categorías que se detallan en la siguiente tabla:  
 
