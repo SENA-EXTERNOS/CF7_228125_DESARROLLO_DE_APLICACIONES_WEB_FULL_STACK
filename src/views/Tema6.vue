@@ -67,7 +67,7 @@
     .h5.mb-5 Para ampliar la información consulte los siguientes enlaces:
 
     .row.justify-content-between.mb-4
-      .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-lg-6.col-10.mb-lg-0.mb-4
         a.anexo.mb-4(href="https://developer.mozilla.org/es/docs/Web/HTTP/Methods" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link-red.svg")
